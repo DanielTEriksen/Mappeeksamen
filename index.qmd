@@ -1,1 +1,9 @@
-## Introduksjon
+---
+bibliography: references.bib
+---
+
+## Referanseliste
+
+[@krieger2009]
+
+[@schoenfeld2016]
