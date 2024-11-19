@@ -3,12 +3,17 @@ project:
 
 book:
   title: "Mappeeksamen IDR4000"
-  author: "Student Studentson"
+  author: "Daniel Thuv Eriksen"
   date: "2024-09-10"
   chapters:
     - index.qmd
     - Rapport-1-Eksamen.qmd
-
-
+    - Rapport 2-Eksamen.qmd
+    - Rapport-3-Eksamen.qmd
+    - Rapport-4-Studiedesign.qmd
+    - Rapport-5-Eksamen-NY.qmd
+    - Filosofihistorie-Eksamen.qmd
+    - Labrapport-Eksamen.qmd
+    
 
 format: pdf

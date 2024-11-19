@@ -1,6 +1,7 @@
 ---
-title: "Oppgave 1"
+title: "Rapport 1"
 format: html
+authors: Lone, Lars, Daniel og Ulrich 
 editor_options: 
   chunk_output_type: console
 bibliography: references.bib

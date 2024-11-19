@@ -1,0 +1,100 @@
+---
+title: "Rapport 4"
+format: html
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
+---
+
+
+The questions may help you analyze your studies
+
+
+1.	What was the broader problem the authors are trying to resolve in the study?
+Forfatterne av de ulike artiklene adresserer et bredt spekter av utfordringer innen treningsvitenskap, spesielt fokusert på hvordan ulike periodiseringsmodeller påvirker prestasjon og fysiologiske responser hos utholdenhetsutøvere. Det overordnede målet er å forstå hvordan systematiske tilnærminger til trening kan optimalisere prestasjon, forbedre kondisjon og redusere risikoen for overtrening (Galán-Rioja et al., 2023; Mølmen et al., 2019). Spørsmålet om hvilke treningsmetoder som gir de beste resultatene er kritisk for både trenere og utøvere, ettersom effektiv treningsplanlegging er avgjørende for suksess i konkurranser.
+
+
+2.	What are the specific questions the authors are trying to answer?
+Hver studie undersøker spesifikke aspekter ved treningsperiodisering. For eksempel, i Artikkel 1, stilles spørsmål om hvordan ulike periodiseringsmodeller påvirker prestasjonen til syklister, mens Artikkel 2 fokuserer på hvordan treningsbelastning og kroppssammensetning utvikler seg hos elite triatleter over en sesong (Sellés-Pérez et al., 2024). I Artikkel 3 er spørsmålet om blokkerte periodiseringer gir bedre resultater sammenlignet med tradisjonelle metoder, mens Artikkel 4 ser på langsiktige effekter av blokkerte periodiseringer hos en elite syklist. Artikkel 5 sammenligner direkte treningsresultatene fra blokk- og tradisjonell periodisering.
+
+
+Alternative explanations
+
+
+3.	Is the specific question framed as an hypothesis or a question?
+Flere av artiklene har formulert hypoteser for å guide forskningen. For eksempel, Artikkel 3 presenterer en hypotese om at blokkerte periodiseringer vil resultere i større forbedringer i utholdenhetsprestasjon enn tradisjonelle periodiseringsmetoder (Mølmen et al., 2019). Artikkel 2 har også en hypotese som postulerer at triatletene vil øke sine prestasjoner i løpet av sesongen, samt redusere kroppsfett, noe som gir en klar retning for analysen av resultatene (Sellés-Pérez et al., 2024).
+
+
+4.	If the authors have formulated a hypothesis, what alternative explanations can you think of that could potentially explain the data that the authors hypothesize?
+Alternative forklaringer på resultatene kan inkludere individuelle forskjeller i respons på trening, for eksempel genetiske faktorer, tidligere treningshistorie og andre livsstilsfaktorer (Rønnestad & Hansen, 2018). Det er også mulig at variabler som kosthold, søvnkvalitet og psykisk velvære kan påvirke utfallet av treningsprogrammet. I tillegg kan eksterne faktorer som skade eller sykdom ha en betydelig innvirkning på prestasjonen, noe som kan komplisere tolkningen av resultater (Rønnestad et al., 2012).
+
+
+Logic
+
+
+5.	What is the logic of the hypothesis or the question. Try to create a “line of logic” between the introduction and the question/hypothesis.
+Logikken bak hypotesene i disse studiene er basert på den antatte sammenhengen mellom treningsmetode og fysiologisk tilpasning. Hypotesen om at blokkerte periodiseringer gir bedre resultater enn tradisjonelle modeller bygger på antagelsen om at høyere konsentrasjoner av spesifik trening gir mer markante tilpasninger i kroppen (Mølmen et al., 2019). For eksempel kan en periode med intensiv trening føre til bedre muskulær utholdenhet og oksygenopptak, som er avgjørende for utholdenhetsidretter.
+
+
+Methods
+
+
+6.	Describe the study design. Use Hulley, (2013), Chapters 7-133 in your analysis.
+Studiene benytter varierte design for å oppnå sine mål. Artikkel 1 er en systematisk gjennomgang som evaluerer eksisterende forskning (Galán-Rioja et al., 2023), mens Artikkel 2 er et longitudinelt case-studie som følger tre triatleter over en hel sesong. Artikkel 3 benytter metaanalyse for å samle og evaluere data fra flere studier, mens Artikkel 4 er en enkeltcase-studie som undersøker effekten av et spesifikt treningsprogram på en eliteutøver over 58 uker. Til slutt, Artikkel 5 bruker et crossover-design for å sammenligne to ulike treningsmetoder.
+
+
+7.	Describe the sample and if the study defines the population.
+Utvalget i studiene varierer, men alle fokuserer på spesifikke grupper av utøvere. Artikkel 2 inkluderer tre elite triatleter, noe som gir innsikt i individuelle tilpasninger og respons på trening (Sellés-Pérez et al., 2024). Artikkel 5 har et større utvalg på 21 syklister, som gjør det lettere å generalisere funnene (Rønnestad et al., 2012). Studiene definerer klart populasjonen, enten det er eliteutøvere, konkurransedyktige triatleter eller syklister med spesifik treningserfaring.
+
+
+8.	Describe the method of recruiting participants to the study. Did the authors justify their sample size (i.e. did they do a power calculation)?
+Deltakerne ble rekruttert fra sportsmiljøer, treningssentre og ved spesifikke konkurranser. I Artikkel 2 er det en tydelig beskrivelse av utøverne og deres erfaring, mens Artikkel 5 angir at deltakerne hadde konkurransedyktig erfaring (Rønnestad et al., 2012). Rekrutteringsprosessen er viktig for å sikre at deltakerne har de nødvendige kvalifikasjonene og treningshistorikken for å være relevante for studiene.
+
+
+9.	Describe how the study was conducted (what tests was performed when etc.)
+Studiene benyttet en rekke metoder for datainnsamling. For eksempel, i Artikkel 4, ble tester for VO2max og anaerob terskel gjennomført med standardiserte protokoller ved flere tidspunkter (Rønnestad & Hansen, 2018). Artikkel 2 benytter både objektive målinger av ytelse og subjektive vurderinger av treningsbelastning. Hver studie skildrer nøye metodene som ble brukt for å evaluere endringer i prestasjon og fysiologiske variabler.
+
+
+10.	Describe the variables in the study, what variables relate to the question/hypothesis?
+Variablene som er undersøkt inkluderer VO2max, laktatterskel, maksimal kraftproduksjon og treningsbelastning. I Artikkel 2 blir også kroppssammensetning (fettprosent) vurdert (Sellés-Pérez et al., 2024). Disse variablene er avgjørende for å forstå hvordan forskjellige treningsmetoder påvirker den fysiske kapasiteten til utøverne.
+
+
+11.	What methods did the authors use to make claims (what statistical tests were used)
+Forfatterne anvendte ulike statistiske metoder for å analysere dataene. Vanlige tester inkluderer t-tester for sammenligning av grupper og ANOVA for å vurdere effekten av variabler over tid (Mølmen et al., 2019). Artikkel 3 benytter også metaanalytiske metoder for å aggregere data fra flere studier, noe som gir en sterkere evidensbase for påstandene.
+
+
+Results
+
+
+12.	What were the main results of the study, did the authors answer their question/address their hypothesis?
+Hovedresultatene indikerer at blokkerte periodiseringer generelt gir bedre resultater enn tradisjonelle modeller når det gjelder forbedringer i VO2max og andre prestasjonsmål (Mølmen et al., 2019). Forfatterne fant også at de spesifikke treningsmetodene som ble anvendt, hadde signifikante effekter på fysiologiske tilpasninger. Dette bekrefter hypotesene i flere av studiene, spesielt i Artikkel 3 og Artikkel 5.
+
+
+Inference
+
+
+13.	What could the authors conclude from the study?
+Forfatterne konkluderer at blokkerte periodiseringer kan være en effektiv treningsmetode for å oppnå betydelige forbedringer i utholdenhetsprestasjon (Rønnestad et al., 2012). De peker på viktigheten av å tilpasse treningsmetodene til individuelle utøveres behov og prestasjonsmål. I tillegg fremhever de behovet for mer forskning for å ytterligere validere resultatene.
+
+
+14.	What did the authors conclude about the study population?
+Forfatterne fant at de forskjellige treningsmetodene hadde ulik effekt avhengig av utøverens nivå og spesifikke treningshistorie. I Artikkel 2 ble det bemerket at individuelle tilpasninger hos triatleter varierte, noe som kan påvirke resultatene av treningsprogrammene (Sellés-Pérez et al., 2024). Artikkel 5 fremhevet også at blokkerte periodiseringer kan gi bedre resultater for trenede syklister sammenlignet med tradisjonelle metoder, og at disse resultatene kan være mer uttalt hos eliteutøvere som har høyere treningsbakgrunn og fysiologiske nivåer (Rønnestad et al., 2012). Dette understreker viktigheten av å tilpasse treningsprogrammer til den enkelte utøveren for å oppnå optimal ytelse.
+
+
+Referanseliste
+
+
+Galán-Rioja, M. Á., Gonzalez-Ravé, J. M., González-Mohíno, F., & Seiler, S. (2023). Training periodization, intensity distribution, and volume in trained cyclists: A systematic review. International Journal of Sports Physiology and Performance, 18(2), 112–122. https://doi.org/10.1123/ijspp.2022-0302
+
+
+Sellés-Pérez, S., Arévalo-Chico, H., Fernández-Sáez, J., & Cejuela, R. (2024). Training characteristics, performance, and body composition of three U23 elite female triathletes throughout a season. Sports, 12(2), 53. https://doi.org/10.3390/sports12020053
+
+
+Mølmen, K. S., Øfsteng, S. J., & Rønnestad, B. R. (2019). Block periodization of endurance training – a systematic review and meta-analysis. Open Access Journal of Sports Medicine, 10, 145–160. https://doi.org/10.2147/OAJSM.S180408
+
+
+Rønnestad, B. R., & Hansen, J. (2018). A scientific approach to improve physiological capacity of an elite cyclist. International Journal of Sports Physiology and Performance, 13(3), 390–393. https://doi.org/10.1123/ijspp.2017-0228
+
+
+Rønnestad, B. R., Hansen, J., & Ellefsen, S. (2012). Block periodization of high-intensity aerobic intervals provides superior training effects in trained cyclists. Scandinavian Journal of Medicine & Science in Sports, 24(1), 34–42. https://doi.org/10.1111/j.1600-0838.2012.01485.x
+

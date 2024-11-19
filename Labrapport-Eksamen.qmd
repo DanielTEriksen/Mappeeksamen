@@ -1,0 +1,141 @@
+---
+title: "Labrapport - Eksamen"
+format: html
+---
+
+# qPCR
+
+Formålet med denne rapporten er å sjekke primereffektivitet og gjennomføre målrettet amplifisering av cDNA ved bruk av spesifikke primere.  
+
+ 
+
+## Utstyr
+
+En sanntids PCR-maskin (vi bruker QuantStudio 5)
+En qPCR-reaksjonsplate
+Nukleasefritt vann og pipettespisser
+SYBR-grønn Master mix
+
+
+## Metoder
+
+Fikk ferdig cDNA prøver fra fryser av personer som har gjennomført systematisk styrketrening i 2 uker. 
+
+ 
+
+Vi fortynnet prøvene med qPCR:
+
+                  1 2a 3a 4a 2b 3b 4b
+
+Fortynning 1 1/10 1/100 1/1000 1/2 1/20 1/200
+
+prøve 30µl 2µl 2µl 2µl 10µl 2µl 2µl
+
+H2O 0µl 18µl 18µl 18µl 10µl 18µl 18µl
+
+ 
+
+1. Flytter 2 µl fra rør 1 til 2a, og 10µl fra 1 til 2b, vortex rør 2a+2b.
+
+2. Flytter 2µl fra 2a til 3a og 2µl fra 2b til 3b, vortex rør 3a+3b.
+
+3. Flytter 2µl fra 3a til 4a og 2µ fra 3b til 4b, vortex rør 4a + 4b.
+
+Mulig avvik: første: litt lite innhold i 3b ifh til de andre 
+
+ 
+
+1. Kombiner en mesterblanding:
+
+Komponent	Volum per reaksjon	Total volum	cmyc
+Sybr-green 2X master-mix	5 μl1	50 μl	125 μl
+Primermix, Forward and Reverese 5 μM2 each	1 μl	10 μl	25 μl
+H2O	2 μl	20 μl	50 μl
+- mulig avvik i første steg: sybr-grønn: tok 200 + 50, hang igjen dråper i pipettespiss på begge to 
+
+- andre steg: vond pipette for sybr-grønn 50ml 
+
+2. Fyll platen med 8μl primerspesifikk masterblanding
+
+3. Tilsett 2μl cDNA-prøve.
+
+ 
+
+## Pipetteringsskjema 
+
+ 	13	14	15	16	17	18	19	20	21	22	23	24
+ 	Fp1	Fp2	 	 	 	 	 	 	 	 	 	 
+EN	myhc 1	myhc 1	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+B	myhc 1	myhc 1	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+C	myhc 1	myhc 1	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+D	myhc 2a	myhc 2a	 	 	 	 	 	 	 	 	 	 
+E	myhc 2a	myhc 2a	 	 	 	 	 	 	 	 	 	 
+F	myhc 2a	myhc 2a	 	 	 	 	 	 	 	 	 	 
+G	myhc 2x	myhc 2x	 	 	 	 	 	 	 	 	 	 
+H	myhc 2x	myhc 2x	 	 	 	 	 	 	 	 	 	 
+I	myhc 2x	myhc 2x	 	 	 	 	 	 	 	 	 	 
+J	myhc	myhc	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+K	myhc	myhc	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+L	myhc	myhc	 	 	cmyc 1	cmyc 2a	cmyc 3a	cmyc 4a	cmyc 2b	cmyc 3b	cmyc 4b	 
+ 
+ 
+## Resultat
+
+MHC 
+Delta-delta-CT method: relative quantification 
+
+ 	 	duplicate	 	 	duplicate	 	 	 	 
+Sample name 	Target name	Ct1	Ct2	Ct3	Average 	Reference gene 	Ct1	Ct2	Ct3	Average 	△Ct	△△Ct 	2-△△Ct 
+FP6 R w0	myhc1	19,798	19,901	19,621	19,7733333	b2m	24,670	24,513	24,691	24,625	-4,851	 	28,867
+FP6 R w2pre	myhc1	18,944	19,24	19,861	19,3483333	b2m	22,913	23,950	23,819	23,561	-4,212	 	18,536
+FP6 R w0	mhc2a	21,029	21,247	20,627	20,968	b2m	24,670	24,513	24,691	24,625	-3,657	 	12,613
+FP6 R w2pre	mhc2a	19,549	19,304	19,580	19,478	b2m	22,913	23,950	23,819	23,561	-4,083	 	16,944
+FP6 R w0	myhc2x	27,019	26,898	25,907	26,6079534	b2m	24,670	24,513	24,691	24,625	1,983	 	0,253
+FP6 R w2pre	myhc2x	24,871	24,105	24,256	24,4106166	b2m	22,913	23,950	23,819	23,561	0,850	 	0,555
+Gene fam normalization 2^-Ct 
+
+100 %	myhc1	myhc2a	mhc2x
+41,733	69,17 %	30,22 %	0,61 %
+36,034	51,44 %	47,02 %	1,54 %
+Etter en to uker lang styrketreningsintervensjon observeres en endring i genuttrykket og fordeling for myhc1, myhc2a og myhc2x. Ved pre-testen var fordelingen henholdsvis 69,17 % for myhc1, 30,22 % for myhc2a og 0,61 % for myhc2x. Etter intervensjonen, ved post-testen, endret fordelingen seg til 51,44 % for myhc1, 47,02 % for myhc2a og 1,54 % for myhc2x. Ct verdiene indikerer en økning av genuttrykket av myhc1, myhc2a og myhc2x. 
+
+Fortynningsrekke 
+Fortynning 	Ct1	Ct2	Ct3	Avg Ct 	Sample quan	Log (sample quan)	Slope/stigningstall	Primer Efficiency (%)
+1	28,678	28,708	29,155	28,847	1	0	-2,6104	141,5901
+1/2	29,414	29,620	29,264	29,433	0,5	-0,301	 	 
+1/10	31,776	31,416	32,413	31,868	0,1	-1	 	 
+1/20	33,241	32,653	Undetermined	32,947	0,05	-1,301	 	 
+1/200	Undetermined	Undetermined	34,574	34,574	0,005	-2,301	 	 
+Stigningstallet på -2,6 indikerer at primer effektiviteten er ikke optimal då den er kalkulert til 142%. Vi ser at observasjonene ikke er linjere (Figur 1) 
+
+ 
+
+Pooled sam 	Avg 	SD	CV(%)
+1	28,847	0,26704902	0,93 %
+0,5	29,433	0,17887641	0,61 %
+0,1	31,868	0,50500096	1,58 %
+Standardavvikene er relativt lave for fortynningene i "pooled sample" som tyder på presisjon i resultatene. Standardfeilen er lavest for 1/2 fortynnet prøve ved 0,61% og høyest for 1/10 fortynnet prøve ved 1,58%. Det indikerer at det er større variabilitet mellom målingene for prøvene som er mest fortynnet. Standardfeilen til den ufortynnede prøven er høyere enn den fortynnede 1/2.  
+
+caf456912a1ef0db180180daffb0d40b8fd22c2eaef0c6e9283d15ee9fccce6d57105d1266b11ed02fbacf21a284191b537e0393ddc869fd5ffc55cbc3e415ff.png
+
+Figur 1
+
+ 
+
+ 
+
+## Diskusjon 
+
+Wilborn og Willoughbi (2004) sa at etter 8 uker med tung styrketrening var genuttrykket for myhc 1 og 2a økt samt mindre for mych 2x. Det er ikke studier på to uker med stykretrening som forklarer endringen i myhc genuttrykk, men vi spekulerer i at det vil være samme endringer som for Wilborn og Willoughbi (2004), men i mindre grad. Dette stemmer med våre funn då vi ser en økning i genutrykk for både mych 1 og mych 2a, men strider i mot at vi ser en økning i mych 2x. 
+
+Primer effektiviteten er ikke optimal då den er kalkulert til 142%. Referanseverdiene er på 90-110% indikerer at hver PCR syklus dobbler mengden mål DNA nøyaktig. Vår høye verdi tyder på ulike filkilder undervegs i forsøket som feil pipettering eller kontaminasjon, primere kan binde seg til fleire plasser på DNA og primere kan binde seg til hverandre som kan gi ut falskt signal. 
+
+CV målingene forteller at det er høyere variabilitet i målingene når prøven blir mer fortynnet. Gjennomsnittet er lavest på den ufortynnede prøven noe som kan påvirke at CV er høyere enn den 1/2 fortynnede prøven då CV reknes ut fra standardavviket delt på gjennomsnittet som gjør at et lavere gjennomsnitt vil gi en høyere CV. Vi mistenker at dårlig pipitering er årsak til at høyere CV for ufortynnet prøve enn 1/2 fortynnet prøve. 
+
+ 
+
+ 
+
+## Referanser 
+
+Wilborn, CD, Willoughby, DS Rollen til proteininntak og motstandstrening på myosin tungkjedeuttrykk. J Int Soc Sports Nutr 1 , 27 (2004). https://doi.org/10.1186/1550-2783-1-2-27
