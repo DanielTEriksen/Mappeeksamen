@@ -64,7 +64,6 @@ cyclingstudy %>%
 ```
 
 
-
 ```{r}
 #| warning: false
 #| message: false
@@ -132,6 +131,7 @@ lactate_threshold_2 <- ndf %>%
   filter(abs(predictions - 2) == min(abs(predictions - 2))) %>% print()
 
 ```
+
 Vi har kalkulert blodlaktatterskel ved 4mmol L^-1^ til å være 343 watt, og blodlaktatterskel ved 2mmol L^-1^ til å være 307 watt for subject "10" ved timepoint "pre".
 
 
@@ -171,6 +171,7 @@ unknown
 
 
 ```
+
 Kalibreringsmodellen beskriver forholdet mellom avstand og molekylvekt. 
 Etter log-transformering av molekylvekten, blir forholdet mellom avstand og molekylvekt tilnærmet lineært, noe som gjør den lineære regresjonsmodellen passende.
 R-kvadratverdien på 0.98 indikerer hvor godt modellen passer til dataene da den er tilnærmet 1. 
@@ -202,6 +203,7 @@ model <- lm(FAST_CSA_T1 ~ SQUAT_3RM, dat)
 summary(model)
 
 ```
+
 Per økning i kilo SQUAT_3RM  øker FAST_CSA_T1 med 5.483m^2^. Standardfeil (SE) = 8.032. SE forklarer gjennomsnittlig variasjon i økning i populajsjonen tatt fra vårt utvalg. T-verdi = 0.683. T-verdien er relativt lav og indikerer at differansen mellom gjennomsnittet i dataen og gjennomsnittet i populasjonen sannsynligvis er liten. P-verdi = 0.50. P-verdien her tilsier at det ikke er noe signifikant sammenheng mellom økning i kilo i SQUAT_3RM og økning i mikrometer^2^ i FAST_CSA_T1.
 
 

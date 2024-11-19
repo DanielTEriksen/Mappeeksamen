@@ -10,7 +10,7 @@ format: html
 
 # Introduksjon
 
-Styrketrening er en veletablert metode for å øke maksimal styrke og muskelmasse (Krieger, 2009; Schoenfeld et al., 2016). Tidligere studier har vist at treningsvolum spiller en avgjørende rolle for å optimalisere disse resultatene. En meta-analyse av Krieger (2009) fant at flere sett gir bedre resultater enn ett sett, mens andre studier, som Cannon (2010), ikke fant noen signifikante forskjeller mellom ulike volumnivåer. I tillegg viser nyere forskning av Schoenfeld et al. (2019) en dose-respons-effekt, der høyere treningsvolum er assosiert med større muskelvekst.
+Styrketrening er en veletablert metode for å øke maksimal styrke og muskelmasse (Krieger, 2009; Schoenfeld et al., 2016). Tidligere studier har vist at treningsvolum spiller en avgjørende rolle for å optimalisere disse resultatene. En meta-analyse av Krieger (2009) fant at flere sett gir bedre resultater enn ett sett, mens en studie av Mitchell et al. (2012) viste at ulik treningsbelastning ikke nødvendigvis førte til signifikante forskjeller i muskelhypertrofi. I tillegg viser nyere forskning av Schoenfeld et al. (2019) en dose-respons-effekt, der høyere treningsvolum er assosiert med større muskelvekst.
 
 Effekten av treningsvolum kan imidlertid variere mellom individer. Grgic et al. (2018) fant at å trene til utmattelse versus ikke-utmatting kan ha ulik innvirkning på styrke og hypertrofi, noe som ytterligere fremhever kompleksiteten i treningsdesign. Forståelse av optimale volumer er viktig for å tilpasse treningsprogrammer til ulike målgrupper.
 
@@ -20,7 +20,7 @@ Formålet med denne rapporten er å undersøke effekten av lavt volum (1-sett) k
 
 ## Deltakere og Data
 
-Studien inkluderte 34 deltakere (18-40 år), hvor hvert bein ble tilfeldig tildelt enten 1-sett eller 3-sett treningsprotokoller. Muskelmasse ble målt med DXA-skanning, og maksimal styrke ble målt som 1RM i beinpress og lårstrekk.
+Studien inkluderte opprinnelig 40 deltakere i alderen 18–40 år. Av disse ble 7 deltakere ekskludert under dataanalysen fordi de ikke fullførte minst 85 % av de planlagte treningsøktene. Årsakene til ekskludering var som følger: ubehag eller smerte i underekstremitetene under trening (n = 5), skade ikke relatert til studien (n = 1), og manglende overholdelse av studieprotokollen (n = 1). Dette resulterte i en endelig analyse av 33 deltakere, hvor hvert bein ble tilfeldig tildelt enten 1-sett eller 3-sett treningsprotokoller. Muskelmasse ble målt med DXA-skanning, og maksimal styrke ble målt som 1RM i beinpress og lårstrekk.
 
 ```{r}
 # Laste inn nødvendige pakker og data
@@ -126,9 +126,10 @@ Fremtidige studier bør utforske hvordan treningsvolum kan tilpasses ulike popul
 
 Butcher, S. J., Judd, T. B., Benko, C. R., Horvey, K. J., & Pshyk, A. D. (2022). The effect of load and volume autoregulation on muscular strength and hypertrophy: A systematic review and meta-analysis. Sports Medicine - Open, 8(1), 9. https://doi.org/10.1186/s40798-021-00404-9
 
-Krieger, J. W. (2009). Single versus multiple sets of resistance exercise: A meta-regression. Journal of Strength and Conditioning Research, 23(6), 1890–1901. https://doi.org/10.1519/jsc.0b013e3181b370be
-
-Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. Journal of Sports Sciences, 35(11), 1073–1082. https://doi.org/10.1080/02640414.2016.1210197
-
 Grgic, J., Schoenfeld, B. J., Orazem, J., & Sabol, F. (2018). Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis. Journal of Sport and Health Science, 7(2), 202–211. https://doi.org/10.1016/j.jshs.2021.01.007
 
+Krieger, J. W. (2009). Single versus multiple sets of resistance exercise: A meta-regression. Journal of Strength and Conditioning Research, 23(6), 1890–1901. https://doi.org/10.1519/jsc.0b013e3181b370be
+
+Mitchell, C. J., et al. (2012). Resistance exercise load does not determine training-mediated hypertrophic gains in young men. Journal of Applied Physiology, 113(1), 71–77. https://doi.org/10.1152/japplphysiol.00307.2012
+
+Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. Journal of Sports Sciences, 35(11), 1073–1082. https://doi.org/10.1080/02640414.2016.1210197
