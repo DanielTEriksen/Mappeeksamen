@@ -4,6 +4,42 @@ bibliography: references.bib
 
 ## Referanseliste
 
+Rapport 1 kilder
+
+[@halperin2015]
+
+[@hopkins2000]
+
+Rapport 2 kilder
+
+[@sylta2016]
+
+[@schindelin2012]
+
+[@haun2018]
+
+[@haun2019]
+
+Rapport 5 kilder
+
 [@krieger2009]
 
 [@schoenfeld2016]
+
+[@hickmott2022]
+
+[@grgic2022]
+
+[@mitchell2012]
+
+[@hammarström2020]
+
+Filosofihistorie - 6
+
+[\[\@popper1959\]](https://edisciplinas.usp.br/pluginfile.php/7833283/mod_resource/content/1/%5BKarl_Popper%5D_The_logic_of_scientific_discovery%28z-lib.org%29.pdf "@popper1959")
+
+Vassend, O. (2024). «Vitenskapsfilosofi dag 1-4». Forelesning ved Høgskolen i Innlandet.
+
+[\[\@alnes2021\]](https://snl.no/falsifikasjon_-_vitenskapsteori)
+
+[\[\@holmen2024\]](https://snl.no/induksjonsproblemet)

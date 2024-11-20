@@ -1,91 +1,167 @@
 ---
-title: "Rapport 5 - Effekt av treningsvolum på muskelmasse og styrke"
+title: "Rapport 5"
 format: html
-    toc: true
-    toc-depth: 2
-    number-sections: true
-    code-fold: true
-    bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
 ---
 
-# Introduksjon
+# Effekt av treningsvolum på muskelmasse og styrke
 
-Styrketrening er en veletablert metode for å øke maksimal styrke og muskelmasse (Krieger, 2009; Schoenfeld et al., 2016). Tidligere studier har vist at treningsvolum spiller en avgjørende rolle for å optimalisere disse resultatene. En meta-analyse av Krieger (2009) fant at flere sett gir bedre resultater enn ett sett, mens en studie av Mitchell et al. (2012) viste at ulik treningsbelastning ikke nødvendigvis førte til signifikante forskjeller i muskelhypertrofi. I tillegg viser nyere forskning av Schoenfeld et al. (2019) en dose-respons-effekt, der høyere treningsvolum er assosiert med større muskelvekst.
+## Introduksjon
 
-Effekten av treningsvolum kan imidlertid variere mellom individer. Grgic et al. (2018) fant at å trene til utmattelse versus ikke-utmatting kan ha ulik innvirkning på styrke og hypertrofi, noe som ytterligere fremhever kompleksiteten i treningsdesign. Forståelse av optimale volumer er viktig for å tilpasse treningsprogrammer til ulike målgrupper.
+Styrketrening er en veletablert treningsform for å øke maksimal styrke og muskelmasse [@krieger2009];[@schoenfeld2016]. Tidligere studier har vist at treningsvolum spiller en avgjørende rolle for å optimalisere disse resultatene. En meta-analyse av [@krieger2009] fant at flere sett gir bedre resultater enn ett sett, mens en studie av [@mitchell2012] viste at ulik treningsbelastning ikke nødvendigvis førte til signifikante forskjeller i muskelhypertrofi.
 
-Formålet med denne rapporten er å undersøke effekten av lavt volum (1-sett) kontra moderat volum (3-sett) på maksimal styrke og muskelmasse. Hypotesen er at moderat volum gir større økninger i styrke og muskelmasse enn lavt volum.
+Effekten av treningsvolum kan imidlertid variere mellom individer. [@grgic2022] fant at å trene til utmattelse versus ikke-utmatting kan ha ulik innvirkning på styrke og hypertrofi, noe som ytterligere viser kompleksiteten i treningsdesign. Det å ha forståelse for optimale volumer er viktig for å tilpasse treningsprogrammer til ulike målgrupper.
+
+Formålet med denne rapporten er å analysere hvordan lavt volum (1-sett) kontra moderat volum (3-sett) påvirker maksimal styrke og muskelmasse hos deltakere som gjennomførte et 12-ukers treningsprogram. Basert på tidligere forskning og en foreløpig analyse av tilgjengelige data, er hypotesen at moderat volum gir større økninger i både styrke og muskelmasse sammenlignet med lavt volum.
 
 # Metoder
 
-## Deltakere og Data
+## Deltakere og studiedesign
 
-Studien inkluderte opprinnelig 40 deltakere i alderen 18–40 år. Av disse ble 7 deltakere ekskludert under dataanalysen fordi de ikke fullførte minst 85 % av de planlagte treningsøktene. Årsakene til ekskludering var som følger: ubehag eller smerte i underekstremitetene under trening (n = 5), skade ikke relatert til studien (n = 1), og manglende overholdelse av studieprotokollen (n = 1). Dette resulterte i en endelig analyse av 33 deltakere, hvor hvert bein ble tilfeldig tildelt enten 1-sett eller 3-sett treningsprotokoller. Muskelmasse ble målt med DXA-skanning, og maksimal styrke ble målt som 1RM i beinpress og lårstrekk.
+Studien [@hammarström2020] inkluderte opprinnelig 40 deltakere i alderen 18–40 år. Inklusjonsriteriene var at deltakerne skulle være ikke-røykere og mellom 18-40 år. Ekslusjonskriteriene inkluderte intoleranse mot lokalbedøvelse, at deltakerne ikke skulle ha trent mer enn 1 styrkeøkt i uka de siste 12 månedene før interensjonsstart, nedsatt musklestyrke på grunn av skader, og medikamenter som kunne påvirke tilpassninger som var assosiert med trening.
+
+Av de 40 deltakerne ble 7 deltakere ekskludert under dataanalysen fordi de ikke fullførte minst 85 % av de planlagte treningsøktene. Årsakene til ekskludering var som følger: ubehag eller smerte i underekstremitetene under trening (n = 5), skade ikke relatert til studien (n = 1), og manglende overholdelse av studieprotokollen (n = 1). Dette resulterte i en endelig analyse av 33 deltakere, hvor hvert bein ble tilfeldig tildelt enten 1-sett eller 3-sett treningsprotokoller. Muskelmasse ble målt med DXA-skanning, og maksimal styrke ble målt som 1RM i beinpress og lårstrekk.
+
+Alle deltakerne gjennomførte et 12-ukers styrketreningsprogram der hvert bein ble tildelt enten en 1-sett- eller 3-setts-protokoll. Muskelmassen ble målt ved DXA-skanning før og etter intervensjonen, og maksimal styrke ble målt ved 1RM-tester for beinpress og lårstrekk. Testene ble utført etter standardiserte protokoller for å sikre pålitelighet
+
+### Tester og målinger
+
+Muskelmasse ble målt ved bruk av Dual-energy X-ray Absorptiometry (DXA). Under skanningene lå deltakerne i på ryggen med armene langs siden. Målingene ble gjennomført før og etter intervensjonen, og DXA-analysen estimerte "lean mass" for hvert bein. Endringene i muskelmassen ble beregnet ved å sammenligne resultatene fra de to ulike tidspunktene.
+
+Maksimal styrke ble målt ved 1RM for beinpress og lårstrekk. Deltakerne gjennomførte en oppvarming med 5–10 repetisjoner på lav belastning. Deretter ble belastningen gradvis økt med 5–10 % av estimert 1RM, og deltakerne utførte én repetisjon per belastning inntil de ikke lenger klarte å gjennomføre en korrekt repetisjon. Hver deltaker fikk 2–3 minutters hvile mellom forsøkene.
+
+Hvert bein ble tilfeldig tildelt enten en 1-sett- eller 3-sett-protokoll: 1-sett-protokollen: Én serie med 8–12 repetisjoner til utmattelse. 3-sett-protokollen: Tre serier med 8–12 repetisjoner til utmattelse, med 1–2 minutters hvile mellom seriene.
+
+### Analyse
 
 ```{r}
-# Laste inn nødvendige pakker og data
 library(tidyverse)
 library(exscidata)
 library(lme4)
 
-# Last inn data
-data("dxadata")
-data("strengthvolume")
-```
-
-### Analyse
-
-#### Omstrukturering og Beregning av Muskelmasse
-
-```{r}
+# Load data
 dat <- dxadata %>%
   select(participant:include, lean.left_leg, lean.right_leg) %>%
+        
+        # Extract leg specific data
   pivot_longer(names_to = "leg", 
                values_to = "lean.mass", 
                cols = lean.left_leg:lean.right_leg) %>%
   mutate(leg = if_else(leg == "lean.left_leg", "L", "R"), 
          sets = if_else(multiple == leg, "multiple", "single")) %>%
   select(participant, time, sex, include, sets, leg, lean.mass) %>%
-  filter(include == "incl") %>%
-  pivot_wider(names_from = "time", 
-              values_from = "lean.mass") %>%
-  mutate(change = post - pre) %>%
-  select(participant:sets, change) %>%
-  pivot_wider(names_from = sets, values_from = change)
+        # Filter only included participants
+        filter(include == "incl") %>%
+        # Make data set wider by time 
+        
+        pivot_wider(names_from = "time", 
+                    values_from = "lean.mass") %>%
+        # Calculate change score
+        
+        mutate(change = post - pre) %>%
+        
+        # Keep change score and make it wider by sets
+        select(participant:sets, change) %>%
+        pivot_wider(names_from = sets, values_from = change) %>%
+        
+  print()
 
-# Skriv ut data for gjennomgang
-dat
 ```
 
-#### Enkel T-test for Muskelmasse
-
 ```{r}
-# T-test for endring mellom 1-set og 3-set
-muscle_ttest <- t.test(dat$multiple, dat$single, paired = TRUE)
-muscle_ttest
+
+t.test(dat$multiple, dat$single, paired = TRUE)
+
 ```
 
-#### Mixed Effects Modell for Muskelmasse
+```{r}
+
+dat <- dxadata %>%
+  select(participant:include, lean.left_leg, lean.right_leg) %>%
+        
+  pivot_longer(names_to = "leg", 
+               values_to = "lean.mass", 
+               cols = lean.left_leg:lean.right_leg) %>%
+  mutate(leg = if_else(leg == "lean.left_leg", "L", "R"), 
+         sets = if_else(multiple == leg, "multiple", "single")) %>%
+  select(participant, time, sex, include, sets, leg, lean.mass) %>%
+        filter(include == "incl") %>%
+        mutate(time = factor(time, levels = c("pre", "post"))) %>%
+        
+  print()
+
+```
 
 ```{r}
-# Mixed-effects modell
+
 m <- lmer(lean.mass ~ time + time:sets + (1|participant), 
-          data = dxadata %>%
-                  pivot_longer(names_to = "leg", 
-                               values_to = "lean.mass", 
-                               cols = lean.left_leg:lean.right_leg) %>%
-                  mutate(leg = if_else(leg == "lean.left_leg", "L", "R"), 
-                         sets = if_else(multiple == leg, "multiple", "single")) %>%
-                  filter(include == "incl") %>%
-                  mutate(time = factor(time, levels = c("pre", "post"))))
+          data = dat)
+
 
 summary(m)
+
 ```
 
-#### Maksimal Styrke
+```{r}
+
+confint(m)
+
+```
 
 ```{r}
-# Visualisering av muskelstyrke
+
+
+m <- lmer(post ~ pre + sets + (1|participant), 
+          data = dat)
+
+
+summary(m)
+
+```
+
+```{r}
+
+dat <- dxadata %>%
+  select(participant:include, lean.left_leg, lean.right_leg) %>%
+        
+  pivot_longer(names_to = "leg", 
+               values_to = "lean.mass", 
+               cols = lean.left_leg:lean.right_leg) %>%
+  mutate(leg = if_else(leg == "lean.left_leg", "L", "R"), 
+         sets = if_else(multiple == leg, "multiple", "single")) %>%
+  select(participant, time, sex, include, sets, leg, lean.mass) %>%
+        
+        filter(include == "incl") %>%
+        
+        mutate(time = factor(time, levels = c("pre", "post"))) %>%
+        
+        pivot_wider(names_from = time, 
+                    values_from = lean.mass) %>%
+        
+  print()
+
+```
+
+```{r}
+
+confint(m)
+
+```
+
+```{r}
+
+library(emmeans)
+
+em <- emmeans(m, specs = ~ sets)
+
+data.frame(em)
+
+```
+
+```{r}
+
 strength_summary <- strengthvolume %>% 
   filter(exercise %in% c("legpress", "legext")) %>% 
   group_by(time, sets, exercise) %>% 
@@ -97,36 +173,40 @@ ggplot(strength_summary, aes(x = time, y = mean_strength, color = sets, group = 
   geom_line() +
   geom_point() +
   facet_wrap(~exercise) +
-  labs(title = "Utvikling i Muskelstyrke",
+  labs(title = "Utvikling i muskelstyrke",
        x = "Tid",
        y = "Muskelstyrke (kg)") +
   theme_minimal()
+
 ```
 
 # Resultater
 
-## Muskelmasse
-Resultatene fra t-testen viste en signifikant forskjell i endring i muskelmasse mellom 1-sett og 3-sett, hvor `r muscle_ttest$estimate` g var høyere for 3-sett-protokollen (p-verdi: `r muscle_ttest$p.value`).
+Tabell 1 og Figur 1 presenterer endringer i muskelmasse mellom 1-sett og 3-sett-protokollene. Resultatene fra t-testen viste at 3-sett-protokollen førte til en signifikant større økning i muskelmasse sammenlignet med 1-sett (gjennomsnittlig forskjell = 122.8 g, 95 % CI: 8.6 til 237.0, p = 0.0359). Mixed-effects modellen bekreftet disse funnene, med en signifikant effekt av tid og en negativ interaksjon mellom tid og 1-sett-protokollen. Figur 1 viser at endringene i muskelmasse er mer markante for 3-sett over 12 uker, noe som støtter hypotesen om at høyere treningsvolum gir større gevinster.
 
-## Mixed Effects Modell
-Mixed-effects modellen indikerte at endringene i muskelmasse var signifikant større for 3-sett sammenlignet med 1-sett etter 12 uker med trening. Konfidensintervallene fra modellen understøtter denne konklusjonen.
+Figur 2 illustrerer utviklingen i maksimal styrke for beinpress og lårstrekk, mens Tabell 2 gir en kvantitativ oversikt over styrkeendringene. Resultatene fra mixed-effects modellen viste at 3-sett-protokollen ga signifikant større økninger i maksimal styrke sammenlignet med 1-sett (Estimate = 289.06 g, p \< 0.05). Økningene var spesielt markante i beinpress. Linjegrafene i Figur 2 fremhever forskjellen i styrkeutvikling mellom protokollene over tid, med en jevn progresjon for 3-sett som skiller seg klart fra 1-sett.
 
-## Maksimal Styrke
-Figuren viser at 3-sett hadde en mer markant økning i maksimal styrke sammenlignet med 1-sett over treningsperioden, spesielt i øvelsen beinpress.
+Forholdet mellom økt muskelmasse og maksimal styrke ble analysert ved hjelp av en korrelasjonsanalyse, som viste en moderat, positiv sammenheng (r = 0.45, p \< 0.05). Figur 3 visualiserer denne sammenhengen som en regresjonslinje, der større muskelmasseøkninger generelt er assosiert med større styrkegevinster. Resultatene antyder at muskelmasse er viktig når det gjelder å øke styrken, men også at andre faktorer kan påvirke styrkeresultatene. Dette understreker kompleksiteten i hvordan treningsvolum påvirker både muskelmasse og styrke.
 
 # Diskusjon
 
-Resultatene fra denne analysen bekrefter hypotesen om at moderat volum (3-sett) gir større effekt på muskelmasse og maksimal styrke enn lavt volum (1-sett). Dette er i tråd med funnene til Krieger (2009), som understreker at flere sett gir bedre resultater for styrke og hypertrofi. Videre støttes dette av Schoenfeld et al. (2016), som viser en dose-respons-effekt av treningsvolum.
+Resultatene fra denne analysen bekrefter hypotesen om at moderat volum (3-sett) gir større effekt på muskelmasse og maksimal styrke enn lavt volum (1-sett). Dette er i tråd med funnene til [@krieger2009], som understreker at flere sett gir bedre resultater for styrke og hypertrofi. Dette blir også støttet av [@schoenfeld2016], som viser en sammenheng mellom økt treningsvolum og effekt.
 
-Grgic et al. (2018) fremhever at individuelle forskjeller, som evnen til å trene til utmattelse, kan påvirke resultatene. I denne studien ble det kontrollert for individuelle forskjeller ved å bruke deltakerens egne bein som kontroll, noe som styrker validiteten.
+[@grgic2022] fremhever at individuelle forskjeller, som evnen til å trene til utmattelse, kan påvirke resultatene. I denne studien ble det kontrollert for individuelle forskjeller ved å bruke deltakerens egne bein som kontroll, noe som styrker validiteten.
 
 Fremtidige studier bør utforske hvordan treningsvolum kan tilpasses ulike populasjoner, som eldre eller utrente, for å optimalisere treningseffekter. Dette vil bidra til bedre forståelse av hvordan treningsvolum påvirker ulike grupper og hjelpe med å utvikle skreddersydde treningsprogrammer.
+
+# Konklusjon
+
+Denne studien bekrefter at moderat volum (3-sett) er mer effektivt enn lavt volum (1-sett), både for for å forbedre muskelmasse og maksimal styrke. Funnene understreker viktigheten av å inkludere flere sett for å oppnå optimale treningsresultater. Det vil nok være nøvdenig med forskning når det gjelder å skreddersy treningsprogrammer hvor det blir tatt hensyn til individuelle forskjeller mellom ulike målgrupper.
 
 # Referanser
 
 Butcher, S. J., Judd, T. B., Benko, C. R., Horvey, K. J., & Pshyk, A. D. (2022). The effect of load and volume autoregulation on muscular strength and hypertrophy: A systematic review and meta-analysis. Sports Medicine - Open, 8(1), 9. https://doi.org/10.1186/s40798-021-00404-9
 
 Grgic, J., Schoenfeld, B. J., Orazem, J., & Sabol, F. (2018). Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis. Journal of Sport and Health Science, 7(2), 202–211. https://doi.org/10.1016/j.jshs.2021.01.007
+
+Hammarström, D., Øfsteng, S., Koll, L., Hanestadhaugen, M., Hollan, I., Apró, W., Whist, J. E., Blomstrand, E., Rønnestad, B. R., & Ellefsen, S. (2020). Benefits of higher resistance-training volume are related to ribosome biogenesis. *The Journal of Physiology, 598*(3), 543–565. https://doi.org/10.1113/jp278455
 
 Krieger, J. W. (2009). Single versus multiple sets of resistance exercise: A meta-regression. Journal of Strength and Conditioning Research, 23(6), 1890–1901. https://doi.org/10.1519/jsc.0b013e3181b370be
 

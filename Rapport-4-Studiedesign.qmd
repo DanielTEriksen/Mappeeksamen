@@ -6,13 +6,11 @@ editor_options:
 bibliography: references.bib
 ---
 
-
 # Effekter av periodiseringsmetoder på VO2max
-
 
 ## Innledning
 
-Treningsperiodisering er en systematisk strategi som brukes for å optimalisere prestasjon og fysiologisk tilpasning gjennom variasjon i intensitet, volum og belastning (Hulley et al., 2013). I utholdenhetsidretter som sykling og triatlon er periodisering spesielt viktig for å maksimere VO2max, en nøkkelindikator for aerob kapasitet og prestasjon (Rønnestad et al., 2012). Blokkbasert periodisering har blitt fremhevet som en effektiv metode for å oppnå raske forbedringer, mens tradisjonelle modeller ofte vektlegger jevn progresjon (Munoz et al., 2021). Samtidig har polariserende treningsmodeller vist lovende resultater, spesielt i elitepopulasjoner (Gejl et al., 2017).
+Treningsperiodisering er en systematisk treningsstrategi som brukes for å optimalisere prestasjon og fysiologisk tilpasning gjennom variasjon i intensitet, volum og belastning (Rønnestad et al., 2012; Gejl et al., 2017). I utholdenhetsidretter som sykling og triatlon er periodisering spesielt viktig for å maksimere VO2max, en nøkkelindikator for aerob kapasitet og prestasjon (Munoz et al., 2021). Blokkbasert periodisering har blitt fremhevet som en effektiv metode for å oppnå raske forbedringer, mens tradisjonelle modeller ofte vektlegger jevn progresjon (Munoz et al., 2021). Samtidig har polariserende treningsmodeller vist lovende resultater, spesielt i elitepopulasjoner (Gejl et al., 2017).
 
 Formålet med denne rapporten er å analysere og sammenligne fem originale forskningsstudier som undersøker effektene av periodisering på VO2max. Rapporten fokuserer på studiedesign og valg av statistiske metoder, som er avgjørende for å tolke funnene på en valid og pålitelig måte (Hulley et al., 2013). Resultatene av denne analysen er relevante for trenere og utøvere som ønsker å tilpasse treningsstrategier basert på vitenskapelig evidens.
 
@@ -42,18 +40,20 @@ Denne studien sammenlignet tradisjonell og polariserende periodisering i en cros
 ## Sammenligning av statistiske metoder
 De fem studiene benyttet ulike statistiske metoder for å besvare sine forskningsspørsmål. T-tester og ANOVA, brukt i Rønnestad et al. (2012) og Munoz et al. (2021), er standardmetoder for å evaluere forskjeller mellom grupper. Lineær regresjon, som i Sellés-Pérez et al. (2024), er godt egnet for å analysere kontinuerlige variabler, men små utvalg kan påvirke presisjonen i estimatene. Blandede modeller, brukt i Gejl et al. (2017), er en mer avansert tilnærming som gir bedre kontroll over gjentatte målinger og variasjon mellom deltakere.
 
-Anbefalinger for fremtidig forskning
-For å forbedre fremtidig forskning bør studier inkludere større og mer varierte utvalg for å øke generaliserbarheten. Bruk av crossover-design og avanserte statistiske metoder som blandede modeller kan bidra til å kontrollere individuelle forskjeller og øke robustheten i analysene. Langsiktige studier er også nødvendige for å undersøke de vedvarende effektene av ulike periodiseringsmodeller.
+Anbefalinger for fremtidig forskning:
+For å forbedre fremtidig forskning bør studier inkludere større og mer varierte utvalg for å øke generaliserbarheten. Bruk av crossover-design og avanserte statistiske metoder som blandede modeller kan bidra til å kontrollere individuelle forskjeller og øke robustheten i analysene. Studier som er mer langsiktige er også nødvendige for å undersøke de vedvarende effektene av ulike periodiseringsmodeller.
 
 ## Referanser
 
-Gejl, K. D., Hvid, L. G., Frandsen, U., Jensen, K., & Ørtenblad, N. (2017). Training intensity distribution affects performance and muscle adaptations in elite endurance athletes. Scandinavian Journal of Medicine & Science in Sports, 27(3), 265–275.
+Gejl, K. D., Hvid, L. G., Frandsen, U., Jensen, K., & Ørtenblad, N. (2017). Training intensity distribution affects performance and muscle adaptations in elite endurance athletes. Scandinavian Journal of Medicine & Science in Sports, 27(3), 265–275. https://doi.org/10.1111/sms.12673
 
-Munoz, I., Smith, T. R., & Jones, P. A. (2021). Effects of different high-intensity interval training periodization models on VO2max and performance in endurance athletes. Journal of Sports Sciences, 39(4), 567–578.
+Hulley, S. B., Cummings, S. R., Browner, W. S., Grady, D., & Newman, T. B. (2013). Designing clinical research (4. utg.). Wolters Kluwer Health.
 
-Rønnestad, B. R., Hansen, J., & Ellefsen, S. (2012). Block periodization of high-intensity aerobic intervals provides superior training effects in trained cyclists. Scandinavian Journal of Medicine & Science in Sports, 24(1), 34–42.
+Munoz, I., Smith, T. R., & Jones, P. A. (2021). Effects of different high-intensity interval training periodization models on VO2max and performance in endurance athletes. Journal of Sports Sciences, 39(4), 567–578. https://doi.org/10.1080/02640414.2021.1878335
 
-Rønnestad, B. R., & Hansen, J. (2018). A scientific approach to improve physiological capacity of an elite cyclist. International Journal of Sports Physiology and Performance, 13(3), 390–393.
+Rønnestad, B. R., Hansen, J., & Ellefsen, S. (2012). Block periodization of high-intensity aerobic intervals provides superior training effects in trained cyclists. Scandinavian Journal of Medicine & Science in Sports, 24(1), 34–42. https://doi.org/10.1111/j.1600-0838.2012.01485.x
 
-Sellés-Pérez, S., Arévalo-Chico, H., Fernández-Sáez, J., & Cejuela, R. (2024). Training characteristics, performance, and body composition of three U23 elite female triathletes throughout a season. Sports, 12(2), 53.
+Rønnestad, B. R., & Hansen, J. (2018). A scientific approach to improve physiological capacity of an elite cyclist. International Journal of Sports Physiology and Performance, 13(3), 390–393. https://doi.org/10.1123/ijspp.2017-0215
+
+Sellés-Pérez, S., Arévalo-Chico, H., Fernández-Sáez, J., & Cejuela, R. (2024). Training characteristics, performance, and body composition of three U23 elite female triathletes throughout a season. Sports, 12(2), 53. https://doi.org/10.3390/sports12020053
 
