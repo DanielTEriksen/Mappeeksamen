@@ -1,80 +1,18 @@
 ---
 title: "Labrapport"
-format: html
+format:
+  pdf: default
+prefer-html: true
 authors: Lone, Lars, Daniel og Ulrich 
 editor_options: 
   chunk_output_type: console
 bibliography: references.bib
-    wrap: 72
 ---
 
-7 Laboratory report  
-
-7.1 Introduction              
-
-Analysis of gene expression through fluorescence-based real-time quantitative polymerase chain reaction (qPCR) is a well-established practice used in a variety of exercise studies (Kuang et al., 2018). This method quantifies target gene expression in biological samples, such as from blood or muscle tissue. The qPCR analysis is widely used and there are numerous protocols and methods for conducting the analysis. In our study we used the SYBR Green method where a fluorescent dye binds to the DNA during amplification. This fluorescence allows real-time tracking of the reaction, as the signal intensity correlates with the amount of DNA present (Kuang et al., 2018). The fluorescence reaches a pre-determined threshold, referred to as the cycle threshold (CT), which reflects the level of gene expression. A lower CT indicates higher gene expression, as fewer amplification cycles were required to cross the threshold (Livak & Schmittgen, 2001). 
-
-In exercise physiology, qPCR is frequently used to investigate changes in gene expression that occur with training. In this study we aim to check primer efficiency and perform targeted amplification of cDNA using specific primers. Additionally, we aim to find out how strength training affects the gene expression of different muscle fiber types as participants underwent a two-week strength training program. The different muscle fiber types we looked at were type I, type IIa and type IIx. Type I fibers, slow-twitch, are highly oxidative and can sustain contraction over long periods without fatigue [@Pette2000]. Type IIa fibers utilize both aerobic and anaerobic metabolic pathways, have intermediate resistance to fatigue and produce more force than type I fibers [@Pette2000]. Lastly, type IIx fibers rely predominantly on anaerobic metabolism and are specialized for rapid and powerful contractions [@Pette2000].
-                  
-
-7.2 Materials  
-
-A real-time PCR machine (We use QuantStudio 5) 
-
-A qPCR reaction plate 
-
-Nuclease-free water and pipette tips 
-
-SYBR-green Master mix 
-
- 
-
-7.3 Method  
-
-Prior to the experiment, the lab manager prepared the cDNA, which was extracted from samples collected during a study where participants underwent a two-week strength training program.  
-
-First, we created a dilution series to test the primers (table 7.1). We moved 2µl from tube 1 to tube 2a, and 10µl from 1 to 2b, then vortexed tube 2a and 2b so that the sample and water (H2O) would mix. Next, we moved 2µl from 2a to 3a and 2µl from 2b to 3b, then vortexed tube 3a and 3b. Lastly, we moved 2µl from 3a to 4a and 2µ from 3b to 4b, then vortexed tube 4a and 4b. 
-
-TABLE 7.1 
-
-We then combined a master mix consisting of 250µl SYBR-green, 50µl primer mix (MHC1, MHC2a, MHC2x, or MHCb2m), and 100µl H2O. Subsequently, we loaded the plate with primer-specific master-mix following the outline of our pipetting scheme (table 7.2). 8µl of the master mix was added to the wells along with 2µl of cDNA sample.  
-
-PIPETTING SCHEME – TABLE 7.2 
-
-The plate was then covered with plastic and centrifuged at 1200rpm for 1 minute. The PCR samples were analyzed using real-time PCR (Applied Biosystems 7500 Fast Real-Time PCR System, Life Technologies AS) and QuantStudio software (Applied Biosystems, Waltham, MA, USA). The PCR process consisted of three stages: a 'Hold stage,' a 'PCR stage,' and a 'Melt curve stage.' In the first step, the temperature increased by 1.99°C/s up to 50°C, where it remained constant for 2 minutes. Then, the temperature increased by 1.99°C/s up to 95°C, where it remained constant for 2 minutes. Next, the actual PCR process began, consisting of 40 cycles. One cycle involved 1 second at 95°C, followed by the temperature dropping at a rate of 1.77°C/s to 60°C, where it remained constant for 30 seconds. After each cycle, an image of the fluorescence in the wells was taken. Finally, the temperature increased by 1.99°C/s up to 95°C and remained constant for 15 seconds. Then, the temperature dropped at a rate of 1.77°C/s to 60°C, where it remained constant for 1 minute. The temperature then increased at a rate of 0.15°C/s to 95°C, where it remained constant for 15 seconds. After the PCR process was completed, we extracted the results in the form of CT values. 
-
- 
-
-We analyzed our data in excel. Here we calculated the average CT value for the triplicates as well as the base-10 logarithm of the sample quantity. The slope was then calculated by plotting. Log(sample quan) against the average CT. A linear regression is performed to find the best-fit line, and the slope is derived. Primer efficiency is then calculated from the slope. Lastly, we calculated the standard deviation (SD) among replicates and the coefficient of variation (CV). 
-
-7.4 Results  
-
-Dilution series  
-
-TABLE 7.3  
-
-A slope of -2.6 indicates that the primer efficiency is not optimal as it is calculated to be 142%. We can see that our observation is not linear (Figure 7.1) 
-
-TABLE 7.4 
-
-The standard deviations are relatively low for the dilutions in the "pooled sample," indicating precision in the results. The standard error is lowest for the 1/2 diluted sample at 0.61% and highest for the 1/10 diluted sample at 1.58%. This suggests that there is greater variability between the measurements for the most diluted samples. Additionally, the standard error of the undiluted sample is higher than that of the 1/2 diluted sample. 
-
-Myosin Heavy Chain 
-
-In table 7.5 can see that the number of cycles to reach the cycle threshold (CT) has changed from week 0 to week 2. The number of cycles decreased for myhc1 from an average of 19.7 to 19.3 cycles. For myhc2a, the cycles dropped from 20.9 to 19.4, and for myhc2x it went from 26.6 to 24.4 cycles. This indicates that the gene expression increased from week 0 to week 2 as fewer cycles indicate higher gene expression (Livak and Schmittgen, 2001). 
-
-TABLE 7.5 – CT VALUES  
-
-In table 7.6 we can see that the amount of gene expression for the different muscle fiber types has changed from week 0 to week 2. The expression of Muscle Fiber Type 1 (myhc1) decreased from 69% to 51%, and Muscle Fiber Type 2a (myhc2a) decreased from 30% to 47%, while Muscle Fiber Type 2x (myhc2x) increased from 0.6% to 1.5%. 
-
-TABLE 7.6: Percentage distribution of gene expression after week 0 and week 2 
-
- 
-
-# Diskusjon
-
-Økningen i myhc2x, som er forbundet med de raskeste og mest eksplosive muskelfibrene, er uventet, siden denne fibertypen vanligvis reduseres ved langvarig trening til fordel for mer utholdenhets- eller styrkeorienterte fibre (type I og IIa). Det kan være at denne økningen er et resultat av kortvarige tilpasninger som gir økt eksplosivitet eller kraftutvikling, men det er også mulig at dette reflekterer tekniske feil, som for eksempel høy primer-effektivitet eller biologisk variasjon. 
-
+```{r}
+library(webshot)
+webshot::install_phantomjs()
+```
 
 
 # qPCR
@@ -122,6 +60,7 @@ kable(fortynning_tabell, caption = "Fortynningsdata", align = "c", format = "htm
 2.  Flytter 2µl fra 2a til 3a og 2µl fra 2b til 3b, vortex rør 3a+3b.
 
 3.  Flytter 2µl fra 3a til 4a og 2µ fra 3b til 4b, vortex rør 4a + 4b.
+
 
 Mulig avvik: første: litt lite innhold i 3b ifh til de andre
 
@@ -248,6 +187,7 @@ myhc2x. Ct verdiene indikerer en økning av genuttrykket av myhc1, myhc2a
 og myhc2x.
 
 ```{r}
+
 library(knitr)
 
 fortynningstabell <- data.frame(
@@ -264,6 +204,7 @@ fortynningstabell <- data.frame(
 
 kable(fortynningstabell, caption = "Fortynningsrekke", format = "html") %>%
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("bordered"))
+
 ```
 
 Stigningstallet på -2,6 indikerer at primer effektiviteten er ikke
@@ -271,6 +212,7 @@ optimal då den er kalkulert til 142%. Vi ser at observasjonene ikke er
 linjere (Figur 1)
 
 ```{r}
+
 library(knitr)
 
 pooled_sample <- data.frame(
@@ -282,6 +224,7 @@ pooled_sample <- data.frame(
 
 kable(pooled_sample, caption = "Pooled Sample Data", format = "html") %>%
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("bordered"))
+
 ```
 
 Standardavvikene er relativt lave for fortynningene i "pooled sample"
@@ -291,8 +234,8 @@ Det indikerer at det er større variabilitet mellom målingene for prøvene
 som er mest fortynnet. Standardfeilen til den ufortynnede prøven er
 høyere enn den fortynnede 1/2.
 
-![](images/Bilde til labrapport-01){width="472"}
 
+Sette inn bilde av figuren fra labrapporten i Elab.
 #### Figur 1
 
 ## Diskusjon
@@ -321,11 +264,3 @@ pipitering er årsak til at høyere CV for ufortynnet prøve enn 1/2
 fortynnet prøve.
 
 ## Referanser
-
-Kuang, J., Yan, X., Genders, A. J., Granata, C., & Bishop, D. J. (2018). Evaluation of iron status in non-dialysis chronic kidney disease patients. Journal of Diabetic Association Medical College, Faridpur, 7(2), 22–26. https://doi.org/10.3329/jdamc.v7i2.38245
-
-Livak, K. J., & Schmittgen, T. D. (2001). Analysis of relative gene expression data using real-time quantitative PCR and the 2−ΔΔCT method. Methods, 25(4), 402–408. https://doi.org/10.1006/meth.2001.1262
-
-Wilborn, C. D., & Willoughby, D. S. (2004). The role of dietary protein intake and resistance training on myosin heavy chain expression. Journal of the International Society of Sports Nutrition, 1(2), 27–34. https://doi.org/10.1186/1550-2783-1-2-27
-
-Pette, D., & Staron, R. S. (2000). Myosin isoforms, muscle fiber types, and transitions. Microscopy Research and Technique, 50(6), 500–509. https://doi.org/10.1002/1097-0029(20000915)50:6<500::AID-JEMT7>3.0.CO;2-7

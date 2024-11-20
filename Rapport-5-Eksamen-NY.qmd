@@ -36,6 +36,7 @@ Hvert bein ble tilfeldig tildelt enten en 1-sett- eller 3-sett-protokoll: 1-sett
 
 ### Analyse
 
+
 ```{r}
 library(tidyverse)
 library(exscidata)
@@ -110,16 +111,6 @@ confint(m)
 
 ```
 
-```{r}
-
-
-m <- lmer(post ~ pre + sets + (1|participant), 
-          data = dat)
-
-
-summary(m)
-
-```
 
 ```{r}
 
