@@ -4,51 +4,154 @@ format: html
 editor_options: 
   chunk_output_type: console
 bibliography: references.bib
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Innledning
-Treningsperiodisering er en systematisk treningsstrategi som brukes for å optimalisere prestasjon og fysiologisk tilpasning gjennom variasjon i intensitet, volum og belastning (Rønnestad et al., 2012; Gejl et al., 2017). I utholdenhetsidretter som sykling og triatlon er periodisering spesielt viktig for å maksimere VO2max, en nøkkelindikator for aerob kapasitet og prestasjon (Munoz et al., 2021). Blokkbasert periodisering har blitt fremhevet som en effektiv metode for å oppnå raske forbedringer, mens tradisjonelle modeller ofte vektlegger jevn progresjon (Munoz et al., 2021). Samtidig har polariserende treningsmodeller vist lovende resultater, spesielt i elitepopulasjoner (Gejl et al., 2017).
 
-Formålet med denne rapporten er å analysere og sammenligne fem originale forskningsstudier som undersøker effektene av periodisering på VO2max. Rapporten fokuserer på studiedesign og valg av statistiske metoder, som er avgjørende for å tolke funnene på en valid og pålitelig måte (Hulley et al., 2013). Resultatene av denne analysen er relevante for trenere og utøvere som ønsker å tilpasse treningsstrategier basert på vitenskapelig evidens.
+Treningsperiodisering er en systematisk treningsstrategi som blir
+benyttet for å optimalisere prestasjon og fysiologisk tilpasning. Dette
+skjer gjennom variasjon i intensitet, volum og belastning
+[@rønnestad2012]. Periodisering er svært relevant i
+utholdenhetsidretter, der VO₂max ofte brukes som en indikator på aerob
+kapasitet og prestasjonsnivået til utøveren. Det blir benyttet ulike
+modeller som blokkbasert, tradisjonell og høyintensiv periodisering.
+Disse metodene har blitt utviklet for å maksimere treningsutbyttet.
+
+De fem originale forskningsstudiene som undersøker effektene av
+periodisering er valgt for å representere et bredere spekter av ulike
+design og tilnærminger. Rapporten fokuserer på studiedesign og valgene
+av statistiske metoder. Dette er avgjørende for å tolke funnene på en
+valid og pålitelig måte [@hulley2013]. Resultatene fra denne analysen er
+relevante for både forskere og trenere som ønsker å utvikle effektive
+treningsprogrammer for utholdenhetsutøvere.
 
 ## Studiedesign
-Valg av studiedesign er avgjørende for å besvare forskningsspørsmål og trekke gyldige konklusjoner. Randomiserte kontrollerte studier (RCT) er regnet som gullstandarden for å etablere kausalitet, fordi de minimerer bias og kontrollerer for konfunderende variabler (Hulley et al., 2013). Longitudinelle design, som følger utøvere over tid, gir verdifull innsikt i fysiologiske tilpasninger, men mangler ofte randomisering og kontrollgrupper, noe som kan svekke den interne validiteten (Sellés-Pérez et al., 2024). Crossover-design er spesielt nyttige i treningsforskning, da deltakerne fungerer som sine egne kontroller, og dermed reduserer individuelle forskjeller (Gejl et al., 2017).
 
-De fem studiene i denne rapporten inkluderer et spekter av design, fra RCT og crossover-studier til case-studier. Hver tilnærming har sine styrker og svakheter, og valg av design påvirker både kvaliteten på dataene og hvordan resultatene kan generaliseres (Munoz et al., 2021; Rønnestad & Hansen, 2018).
+Valg av studiedesign er avgjørende for å besvare forskningsspørsmål på
+en pålitelig måte, og trekke gyldige konklusjoner. Generelt sett kan
+forskningsdesign deles inn i eksperimentelle og observasjonelle
+tilnærminger, hvor randomiserte kontrollerte studier (RCT) er
+gullstandarden for å etablere kausalitet. Dette er noe som gir en høy
+intern validitet, men slike studier kan ofte kreve betydelige ressurser
+og ha begrenset ekstern validitet. Longitudinelle studier gir en
+verdifull innsikt i hvordan variabler som VO₂max kan utvikle seg over
+tid, men de er sårbare for små utvalg og fraværet av randomisering.
+
+Observasjonelle studier og case-studier gir dyp innsikt i spesifikke
+mønstre og fysiologiske tilpasninger. Selv om disse studiedesignene
+mangler kontrollgrupper og ikke kan etablere kausalitet, kan de fortsatt
+være svært nyttige for å lage hypoteser og skape forståelse for
+detaljerte mekanismer. Avanserte metoder, som for eksempel nær-infrarød
+spektroskopi (NIRS) og blandede modeller illustrerer hvordan ulike
+tilnærminger kan tilpasses til spesifikke forskningsspørsmål.
+[@hulley2013] understreker det at valg av studiedesign bør settes opp
+mot forskningsspørsmålets krav til intern validitet, generaliserbarhet
+og ressursbruk. Ved å kombinere styrkene fra ulike typer studiedesign
+kan forskningen gi en mer helhetlig forståelse av forskningsfeltetl. De
+fem studiene i denne rapporten inkluderer et spekter av design hvor hver
+tilnærming har sine styrker og svakheter. Valget av studiedesign
+påvirker både kvaliteten på dataene som bringes frem og hvordan
+resultatene kan generaliseres [@hulley2013].
 
 ## Analyse av studiene
-1. Sellés-Pérez et al. (2024): Longitudinell analyse av triatleter
-Sellés-Pérez et al. (2024) gjennomførte en longitudinell studie med tre kvinnelige U23-triatleter for å undersøke sammenhengen mellom treningsbelastning, prestasjon og kroppssammensetning. Lineær regresjon ble brukt for å evaluere sammenhenger mellom treningsvolum og prestasjon over tid. Studien viser at kontinuerlig treningsbelastning bidrar til økt VO2max og redusert fettprosent, men det lille utvalget begrenser generaliserbarheten av funnene. Longitudinelle design er godt egnet for å kartlegge endringer over tid, men de er sårbare for bias knyttet til individuelle forskjeller og manglende randomisering (Hulley et al., 2013).
 
-2. Rønnestad et al. (2012): Randomisert kontrollert studie av syklister
-Denne RCT-studien sammenlignet blokkbasert og tradisjonell periodisering hos 21 konkurransesyklister over 12 uker. VO2max og anaerob terskel ble analysert med t-tester og ANOVA for å vurdere forskjeller mellom gruppene og over tid. Resultatene indikerer at blokkbasert periodisering gir større forbedringer enn tradisjonelle modeller, noe som understøtter hypotesen om at konsentrerte treningsstimuli gir mer markante fysiologiske tilpasninger (Rønnestad et al., 2012). Randomisering er en styrke ved studien, men populasjonen er begrenset til godt trente syklister, noe som svekker overførbarheten til andre grupper (Hulley et al., 2013).
+[@sellés-pérez2024] er en longitudinell studie av triatleter hvor de
+fulgte tre kvinnelige U23-triatleter. Utøverne ble fulgt gjennom en
+sesong for å evaluere hvordan treningsbelastningen påvirket VO₂max og
+kroppssammensetning. Det ble benyttet lineær regresjon for å analysere
+datamaterialet. Ettersom at studien inneholder et lite utvalg og har en
+mangel på randomisering, så blir genrelaiserbarheten svekket. Til tross
+for dette gir studien en verdifull innsikt i disse type endringer blant
+unge utøvere.
 
-3. Rønnestad & Hansen (2018): Enkeltcase over 58 uker
-Denne case-studien fulgte en elite syklist som gjennomgikk blokkbasert trening over 58 uker. Studien brukte deskriptiv statistikk og trendanalyser for å vurdere endringer i VO2max og laktatterskel. Et langsiktig perspektiv er en styrke ved studien, som gir unik innsikt i fysiologiske tilpasninger over tid. Imidlertid er generaliserbarheten svært begrenset, og mer avanserte metoder, som blandede modeller, kunne ha styrket analysen (Gejl et al., 2017).
+[@rønnestad2012] er en RCT-studie av blokkbasert periodisering. Denne
+studien sammenlignet effekten av blokkbasert og tradisjonell
+periodisering på VO₂max og anaerob terskel. Studien besto av 21 godt
+trente syklister, og varte over 12 uker. Det ble brukt t-tester og ANOVA
+ble for å analysere forskjellene mellom grupper. Studiens validitet blir
+styrket av randomiseringen, men ettersom at utvalget fortsatt et mindre
+vil det begrense overførbarheten til andre populasjoner.
 
-4. Munoz et al. (2021): Effekten av høyintensitetstrening
-Munoz et al. (2021) sammenlignet to høyintensitetsperiodiseringsmodeller på 16 utholdenhetsutøvere over åtte uker. Repetert ANOVA ble brukt for å evaluere endringer i VO2max og maksimal kraftproduksjon. Studien viste at modellen med større variasjon i intensitet førte til bedre forbedringer i VO2max. En styrke ved studien er dens praktiske relevans, men utvalget er begrenset til utøvere på mellomnivå, noe som reduserer overførbarheten til elitepopulasjoner.
+[@rønnestad2018] er en langtids case-studie hvor de fulgte en
+elitesyklist over 58 uker for å nærmere undersøke effekten av
+blokkbasert trening. Det ble benyttet deskriptiv statistikk og
+trendanalyser for å evaluere endringene i VO₂max og laktatterskel.
+Styrken til studien er at den er såpass langsiktig, men mangelen på
+kontrollgrupper reduserer muligheten for å trekke kausale konklusjoner.
 
-5. Gejl et al. (2017): Crossover-studie av polariserende trening
-Denne studien sammenlignet tradisjonell og polariserende periodisering i en crossover-studie med 22 utholdenhetsutøvere. Blandede modeller ble brukt for å analysere endringer i VO2max, en metode som tar hensyn til variasjon både mellom og innen deltakere. Resultatene viste at polariserende periodisering ga større forbedringer, noe som understreker fordelene med høyintensitetstrening for godt trente utøvere. Crossover-designet minimerte effekten av individuelle forskjeller, men krevde omfattende standardisering for å redusere risikoen for bias (Hulley et al., 2013).
+[@vaccari2022]sin studie sammenlignet ulike høyintensitetsprotokoller og
+hvilken innvirking dette hadde på VO₂max. Det ble benyttet avanserte
+statistiske metoder, og blandede modeller som skapte en mer robust
+analyse av datasettet. Studien viser frem hvilken betydning individuelle
+tilpasninger har til høyintensiv trening. Mangelen på kontrollgrupper
+svekker de kausale konklusjonene.
+
+[@hopker2016]gjennomførte en observasjonsstudie for å undersøke hvordan
+langvarig konstant belastning påvirker VO₂max og muskeleffektivitet.
+Studien brukte nær-infrarød spektroskopi (NIRS) for å måle
+muskeloksygenopptak under ulike treningsprotokoller.
+Forskningsspørsmålet fokuserte på hvordan muskulære og kardiovaskulære
+tilpasninger skjer over tid ved utholdenhetstrening. (NIRS) målingene
+for muskeloksygenopptak ga en detaljert innsikt i de fysiologiske
+tilpasningene til utholdenhetstrening. Fraværet av kontrollgrupper og en
+mindre utvalgsstørrelse begrenser den kasuale validiteten til studien.
 
 ## Sammenligning av statistiske metoder
-De fem studiene benyttet ulike statistiske metoder for å besvare sine forskningsspørsmål. T-tester og ANOVA, brukt i Rønnestad et al. (2012) og Munoz et al. (2021), er standardmetoder for å evaluere forskjeller mellom grupper. Lineær regresjon, som i Sellés-Pérez et al. (2024), er godt egnet for å analysere kontinuerlige variabler, men små utvalg kan påvirke presisjonen i estimatene. Blandede modeller, brukt i Gejl et al. (2017), er en mer avansert tilnærming som gir bedre kontroll over gjentatte målinger og variasjon mellom deltakere.
 
-Anbefalinger for fremtidig forskning:
-For å forbedre fremtidig forskning bør studier inkludere større og mer varierte utvalg for å øke generaliserbarheten. Bruk av crossover-design og avanserte statistiske metoder som blandede modeller kan bidra til å kontrollere individuelle forskjeller og øke robustheten i analysene. Studier som er mer langsiktige er også nødvendige for å undersøke de vedvarende effektene av ulike periodiseringsmodeller.
+Studiene benyttet ulike statistiske metoder for å svare på
+forskningsspørsmålene. Dette var tilpasset studienes design og
+datagrunnlag. T-tester og ANOVA som ble brukt i [@rønnestad2012] er
+standardmetoder som benyttes for å evaluere forskjeller mellom ulike
+grupper. Disse metodene passer godt til å analysere effektene av
+intervensjonene som sammenligner de ulike treningsprotokollene. Dette er
+noe som forutsetter et normalfordelt datamateriale og homogene
+variansforhold. Det kan være utfordrende med mindre utvalg, men
+randomiseringen i studien styrket derimot validiteten. Metodene alene
+gir en begrenset innsikt i de individuelle variasjonene.
 
-## Referanser
+Lineær regresjon ble benyttet i [@sellés-pérez2024]. Dette er en
+effektiv metode for å analysere sammenhengene mellom treningsvolum og
+VO₂max. Denne metoden er derimot noe sårbar når det gjelder effekten av
+små utvalg. Dette kan påvirke presisjonen til estimatene og redusere
+generaliserbarheten av funnene i studien. I tillegg manglet studien
+randomisering, som kan øke risikoen for bias.
 
-Gejl, K. D., Hvid, L. G., Frandsen, U., Jensen, K., & Ørtenblad, N. (2017). Training intensity distribution affects performance and muscle adaptations in elite endurance athletes. Scandinavian Journal of Medicine & Science in Sports, 27(3), 265–275. https://doi.org/10.1111/sms.12673
+Deskriptiv statistikk og trendanalyser ble brukt i [@rønnestad2018] og
+[@hopker2016], men med ulike formål. Disse metodene gir enkle og
+visuelle tilnærminger når det gjelder å identifisere langsiktige mønstre
+og fysiologiske tilpasninger. Selv om dette gir en verdifull innsikt i
+individuelle og overordnede mønstre, mangler metodene robusthet for å
+etablere kausale sammenhenger. Særlig for de studiene som mangler
+kontrollgrupper. Der [@rønnestad2018] fokuserte på trendanalysene over
+58 uker i en enkelt case-studie, kombinerte [@hopker2016] deskriptiv
+statistikk med avanserte teknologiske målinger. Begge studiene har et
+fravær av randomisering og kontrollgrupper, som svekker kausaliteten til
+begge studiene.
 
-Hulley, S. B., Cummings, S. R., Browner, W. S., Grady, D., & Newman, T. B. (2013). Designing clinical research (4. utg.). Wolters Kluwer Health.
+[@vaccari2022] benyttet blandede modeller. Dette gir en mer avansert
+statistisk tilnærming, hvor det gis større mulighet til å kontrollere
+variasjon mellom deltakere. Det gir grunnlag for å kunne analysere
+komplekse datasett med gjentatte målinger, som øker robustheten og
+validiteten av funnene i studien. Ettersom at det er et fravær av
+kontrollgrupper i studien svekker dette muligheten til å trekke sterke
+kausale konklusjoner.
 
-Munoz, I., Smith, T. R., & Jones, P. A. (2021). Effects of different high-intensity interval training periodization models on VO2max and performance in endurance athletes. Journal of Sports Sciences, 39(4), 567–578. https://doi.org/10.1080/02640414.2021.1878335
+\newpage
 
-Rønnestad, B. R., Hansen, J., & Ellefsen, S. (2012). Block periodization of high-intensity aerobic intervals provides superior training effects in trained cyclists. Scandinavian Journal of Medicine & Science in Sports, 24(1), 34–42. https://doi.org/10.1111/j.1600-0838.2012.01485.x
 
-Rønnestad, B. R., & Hansen, J. (2018). A scientific approach to improve physiological capacity of an elite cyclist. International Journal of Sports Physiology and Performance, 13(3), 390–393. https://doi.org/10.1123/ijspp.2017-0215
+## Konlusjon
 
-Sellés-Pérez, S., Arévalo-Chico, H., Fernández-Sáez, J., & Cejuela, R. (2024). Training characteristics, performance, and body composition of three U23 elite female triathletes throughout a season. Sports, 12(2), 53. https://doi.org/10.3390/sports12020053
-
+Studiene demonstrerer at forskjellige design og statistiske metoder har
+ulike styrker og svakheter. Longitudinelle design gir gjerne mer innsikt
+i endringer over tid, men kan lide av at uvalget er for lite.
+RCT-studier gir høy validitet, men kan ha begrenset generaliserbarhet.
+Case-studier og observasjonsstudier gir spesifikke detaljer, men kan
+ofte mangle kausale forklaringer. For fremtidig forskning anbefales det
+å kombinere styrkene i disse metodene. Dette kan være ved å bruke større
+utvalg, crossover-design og benytte avanserte statistiske og blandede
+modeller. Dette kan forbedre generaliserbarheten og kausaliteten til
+studiene, og samtidig gi en mer helhetlig forståelse av periodiseringens
+effekt på VO₂max.

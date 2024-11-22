@@ -28,7 +28,7 @@ I del 3 av rapporten har vi gjort en statistisk analyse av forholdet mellom "Typ
 
 ### Del 1: Predikert laktatterskel
 
-```{r}
+```{r, results='hide'}
 #| warning: FALSE
 #| message: FALSE
 #| code-fold: true
@@ -60,7 +60,7 @@ cyclingstudy %>%
   geom_vline(xintercept = 307.1, color = "blue") 
 ```
 
-```{r}
+```{r, results='hide'}
 #| warning: false
 #| message: false
 #| code-fold: true

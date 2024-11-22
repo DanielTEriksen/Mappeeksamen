@@ -4,7 +4,6 @@ format:
   pdf:
     toc: true
     number-sections: true
-    code-fold: false
 execute:
   echo: false
 bibliography: references.bib
@@ -39,6 +38,8 @@ Hvert bein ble tilfeldig tildelt enten en 1-setts- eller 3-setts-protokoll: 1-se
 ### Analyse
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 library(tidyverse)
 library(exscidata)
 library(lme4)
@@ -66,19 +67,21 @@ dat <- dxadata %>%
         
         # Keep change score and make it wider by sets
         select(participant:sets, change) %>%
-        pivot_wider(names_from = sets, values_from = change) %>%
-        
-  print()
+        pivot_wider(names_from = sets, values_from = change)
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 t.test(dat$multiple, dat$single, paired = TRUE)
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 dat <- dxadata %>%
   select(participant:include, lean.left_leg, lean.right_leg) %>%
@@ -90,29 +93,30 @@ dat <- dxadata %>%
          sets = if_else(multiple == leg, "multiple", "single")) %>%
   select(participant, time, sex, include, sets, leg, lean.mass) %>%
         filter(include == "incl") %>%
-        mutate(time = factor(time, levels = c("pre", "post"))) %>%
-        
-  print()
+        mutate(time = factor(time, levels = c("pre", "post")))
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 m <- lmer(lean.mass ~ time + time:sets + (1|participant), 
           data = dat)
 
-
-summary(m)
-
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 confint(m)
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 dat <- dxadata %>%
   select(participant:include, lean.left_leg, lean.right_leg) %>%
@@ -129,19 +133,21 @@ dat <- dxadata %>%
         mutate(time = factor(time, levels = c("pre", "post"))) %>%
         
         pivot_wider(names_from = time, 
-                    values_from = lean.mass) %>%
-        
-  print()
+                    values_from = lean.mass)
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 confint(m)
 
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 library(emmeans)
 
@@ -152,6 +158,8 @@ data.frame(em)
 ```
 
 ```{r, results='hide'}
+#| message: false
+#| warning: false
 
 strength_summary <- strengthvolume %>% 
   filter(exercise %in% c("legpress", "legext")) %>% 
