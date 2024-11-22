@@ -4,6 +4,7 @@ project:
 book:
   title: "Mappeeksamen IDR4000"
   author: "Kandidatnummer: 506"
+  date: "2024-11-22"
   chapters:
     - index.qmd
     - Rapport-1-Eksamen.qmd

@@ -22,11 +22,22 @@ En sanntids PCR-maskin (vi bruker QuantStudio 5), en qPCR-reaksjonsplate, nuklea
 
 Fikk ferdig cDNA prøver fra fryser av personer som har gjennomført systematisk styrketrening i 2 uker.
 
+### Fortynning med qPCR
+
 Vi fortynnet prøvene med qPCR:
+
+1. Flytter 2 µl fra rør 1 til 2a, og 10µl fra 1 til 2b, vortex rør 2a+2b.
+
+2. Flytter 2µl fra 2a til 3a og 2µl fra 2b til 3b, vortex rør 3a+3b.
+
+3. Flytter 2µl fra 3a til 4a og 2µ fra 3b til 4b, vortex rør 4a + 4b.
+
+Mulig avvik i første steg: litt lite innhold i 3b ifh til de andre
 
 
 ```{r}
-
+#| message: false
+#| warning: false
 library(knitr)
 library(kableExtra)
 
@@ -57,15 +68,15 @@ kable(
 
 ```
 
-1.  Flytter 2 µl fra rør 1 til 2a, og 10µl fra 1 til 2b, vortex rør 2a+2b.
+### Kombinering av masterblanding:
 
-2.  Flytter 2µl fra 2a til 3a og 2µl fra 2b til 3b, vortex rør 3a+3b.
+1. Fyll platen med 8μl primerspesifikk masterblanding
 
-3.  Flytter 2µl fra 3a til 4a og 2µ fra 3b til 4b, vortex rør 4a + 4b.
+2. Tilsett 2μl cDNA-prøve.
 
-Mulig avvik: første: litt lite innhold i 3b ifh til de andre
+Mulig avvik i første steg: sybr-grønn: tok 200 + 50, hang igjen dråper i pipettespiss på begge to
 
-1.  Kombiner en mesterblanding:
+Andre steg: vond pipette for sybr-grønn 50ml
 
 ```{r}
 
@@ -99,14 +110,6 @@ kable(
 
 
 ```
-
-Mulig avvik i første steg: sybr-grønn: tok 200 + 50, hang igjen dråper i pipettespiss på begge to
-
-Andre steg: vond pipette for sybr-grønn 50ml
-
-2.  Fyll platen med 8μl primerspesifikk masterblanding
-
-3.  Tilsett 2μl cDNA-prøve.
 
 ## Pipetteringsskjema
 
