@@ -2,44 +2,26 @@
 bibliography: references.bib
 ---
 
-## Referanseliste
+## Introduksjon
 
-Rapport 1 kilder
+**Mappeeksamen består av følgende deler:**
 
-[@halperin2015]
+-   Rapport 1: “Deskriptiv statistikk, reliabilitet og validitet og verktøy for reproduserbar vitenskap”.
 
-[@hopkins2000]
+-   Rapport 2: "Predikere data ved hjelp av regresjon"
 
-Rapport 2 kilder
+-   Rapport 3: “Statistisk inferens, statistiske modeller og statistisk styrke”
 
-[@sylta2016]
+-   Rapport 4: “Studiedesign”
 
-[@schindelin2012]
+-   Rapport 5: “Analyse av eksperimenter med repeterte målinger"
 
-[@haun2018]
+-   Arbeidskrav i filosofihistorie
 
-[@haun2019]
+-   Laboratorierapport fra molekylærlabb
 
-Rapport 5 kilder
+## Forord
 
-[@krieger2009]
+Jeg vil gjerne takke Lone, Lars og Ulrich for et godt samarbeid på Rapport 1/2 og labratorierapporten. I tillegg vil jeg takke Jens Konrad Daniel Hammarström for hjelp på veien når kodene har vært kranglete. Denne oppgaven ville ikke vært mulig uten de som er nevnt. Under ligger lenken til Mappeeksamen sin repository på GitHub med alle kodene som har blitt benyttet til å besvare de ulike delene av eksamen.
 
-[@schoenfeld2016]
-
-[@hickmott2022]
-
-[@grgic2022]
-
-[@mitchell2012]
-
-[@hammarström2020]
-
-Filosofihistorie - 6
-
-[\[\@popper1959\]](https://edisciplinas.usp.br/pluginfile.php/7833283/mod_resource/content/1/%5BKarl_Popper%5D_The_logic_of_scientific_discovery%28z-lib.org%29.pdf "@popper1959")
-
-Vassend, O. (2024). «Vitenskapsfilosofi dag 1-4». Forelesning ved Høgskolen i Innlandet.
-
-[\[\@alnes2021\]](https://snl.no/falsifikasjon_-_vitenskapsteori)
-
-[\[\@holmen2024\]](https://snl.no/induksjonsproblemet)
+Lenke til repository: <https://github.com/DanielTEriksen/Mappeeksamen>

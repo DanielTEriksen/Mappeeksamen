@@ -1,31 +1,28 @@
 ---
-title: "Rapport 2"
-format: html
-authors: Lone, Lars, Daniel og Ulrich 
-editor_options: 
-  chunk_output_type: console
+title: "Rapport 2 - Predikere data ved hjelp av regresjon"
+format: 
+  pdf:
+    toc: true
+    number-sections: true
+    code-fold: false
+execute:
+  echo: false
 bibliography: references.bib
 ---
 
-# Predikere data ved hjelp av regresjon
-
 ## Introduksjon
-
 Hensikten med denne rapporten er å predikere data ved hjelp av regresjon gjort i Rstudio, samt tolke en regresjonstabell. Rapporten inneholder tre deler. Ved å bestemme laktatterskel ved blodlaktatverdiene 2 og 4 mmol L^-1^ analyserer vi forholdet mellom prestasjon i watt og treningsintensitet. Vi analyserte hellningen til en qPCR kalibreringskurve, og tolket en regresjonstabell om forholdet mellom 3RM squat og tverrsnittsareal til type II muskelfibrer.
 
 ## Metode
-
 ### Del 1: Predikert laktatterskel
-
-I del 1 av rapporten ble datasettet cyclingstudy fra [@sylta2016] brukt til å predikere to bestemte blodlaktatterskler ved 2 og 4 mmol L^-1^. Behandlingen av dataen ble gjort i Rstudio.
+I del 1 av rapporten ble datasettet cyclingstudy fra [@sylta2016] brukt til å predikere to bestemte blodlaktatterskler ved 2 og 4 mmol L^-1^.
 
 ### Del 2: Predikert hellning på qPCR kalibreringskurve
-
-I del 2 av rapporten har vi ved hjelp av [@schindelin2012] analysert et bilde av qPCR som ble hentet fram fra forsøket \[DNA\]. Analysen av bildet gav oss data som vi anvendte i Rstudio for å predikere hellningen til qPCR kalibreringskurven.
+I del 2 av rapporten har vi ved hjelp av [@schindelin2012] analysert et bilde av qPCR som ble hentet fram fra forsøket DNA. Analysen av bildet gav oss data som vi anvendte for å predikere hellningen til qPCR kalibreringskurven.
 
 ### Del 3: Tolke en regresjonstabell
+I del 3 av rapporten har vi gjort en statistisk analyse av forholdet mellom "Type II (FAST) fibers cross sectional area (micrometer^2^)" ved baseline (FAST_CSA_T1) og "Squat 3 repetition maximum load (kg)" ved baseline (SQUAT_3RM) fra datasettet til [@haun2018] og [@haun2019] for å undersøke om det var et lineært forhold mellom disse.
 
-I del 3 av rapporten har vi gjort en statistisk analyse av forholdet mellom "Type II (FAST) fibers cross sectional area (micrometer^2^)" ved baseline (FAST_CSA_T1) og "Squat 3 repetition maximum load (kg)" ved baseline (SQUAT_3RM) fra datasettet til [@haun2018] og [@haun2019] for å undersøke om det var et linjert forhold.
 
 ## Resultat
 
@@ -125,7 +122,7 @@ Vi har kalkulert blodlaktatterskel ved 4mmol L^-1^ til å være 343 watt, og blo
 
 ### Del 2: Predikert hellning på qPCR kalibreringskurve
 
-```{r}
+```{r , results='hide'}
 #| warning: false
 #| message: false
 #| code-fold: true
@@ -164,7 +161,8 @@ Kalibreringsmodellen beskriver forholdet mellom avstand og molekylvekt. Etter lo
 
 ### Del 3: Tolke en regresjonstabell
 
-```{r}
+```{r, results='hide'}
+
 #| warning: false
 #| message: false
 #| code-fold: true
@@ -191,24 +189,11 @@ Per økning i kilo SQUAT_3RM øker FAST_CSA_T1 med 5.483m^2^. Standardfeil (SE) 
 
 ## Diskusjon
 
-### Diskusjon - del 1
+### Del 1
+Rapporten viser hvordan man kan kalkulere seg fram til wattbelastning på sykkel ved bestemte laktatverdier på 2 og 4 mmol L^-1^. Dette er noe som beskriver intensiteten. Vi kom fram til at terskelwatten ved 2 mmol L^-1^ var 307, og at terskelwatten ved 4mmol L^-1^ var 343 for subject "10” ved timepoint "pre”.
 
-Rapporten viser hvordan man kan kalkulere seg fram til wattbelastning på sykkel ved bestemte laktatverdier på 2 og 4 mmol L^-1^ som beskriver intensiteten. Vi kom fram til at terskelwatten ved 2 mmol L^-1^ var 307, og at terskelwatten ved 4mmol L^-1^ var 343 for subject "10” ved timepoint "pre”.
-
-### Diskusjon - del 2
-
+### Del 2
 Kalibreringsmodellen viser seg å være effektiv til å beskrive forholdet mellom avstand og molekylvekt, spesielt etter at molekylvekten ble log-transformert. Denne transformasjonen bidro til å gjøre forholdet tilnærmet lineær, noe som bekrefter at en lineær regresjonsmodell er en passende tilnærming. Med en R-kvadratverdi på 0.98 ser vi at modellen gir en nesten perfekt tilpasning til dataene, som styrer modellens prediksjonsnøyaktighet. For de ukjente prøvene baseres prediksjonene av molekylvekt på modellen og gir troverdige estimater basert på migrasjonsavstand i gelen. QQ-plottet støtter også modellens robusthet, ettersom punktene faller nær referanselinjen, som indikerer at restene følger en normalfordeling. Dette antyder at modellen er godt spesifisert og gir en pålitelig beskrivelse av sammenhengen mellom migrasjonsavstand og molekylvekt. Samlet bekrefter resultatene at den utviklede modellen fanger opp de sentrale aspektene ved dataene på en god måte.
 
-### Diskusjon - del 3
-
+### Del 3
 Resultatene viser at det er en økning på 5.48 mikrometer^2^ i FAST_CSA_T1 for hver kilo økning i SQUAT_3RM, men P-verdien på 0.50 indikerer at denne sammenhengen ikke er statistisk signifikant. Standardfeilen (SE) på 8.032 reflekterer variasjonen i estimatet og hvor mye det kan forventes å avvike fra populasjonsgjennomsnittet i utvalget vårt. Den lave t-verdien på 0.683 understøtter også at forskjellen mellom gjennomsnittet i utvalget og populasjonen sannsynligvis er liten. Oppsummert tyder disse funnene på at det ikke er en sterk eller signifikant sammenheng mellom økning i SQUAT_3RM og økning i FAST_CSA_T1. Samtidig som den observerte økningen i FAST_CSA \_T1 heller kan være påvirket av tilfeldige variasjoner enn en systematisk effekt av økt styrke.
-
-# Referanser
-
-Sylta, Ø., Tønnessen, E., Hammarström, D., Danielsen, J., Skovereng, K., Ravn, T., Rønnestad, B. R., Sandbakk, Ø., & Seiler, S. (2016). The effect of different high-intensity periodization models on endurance adaptations. Medicine & Science in Sports & Exercise, 48(11), 2165–2174. https://doi.org/10.1249/mss.0000000000001007
-
-Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., Preibisch, S., Rueden, C., Saalfeld, S., Schmid, B., Tinevez, J.-Y., White, D. J., Hartenstein, V., Eliceiri, K., Tomancak, P., & Cardona, A. (2012). Fiji: An open-source platform for biological-image analysis. Nature Methods, 9(7), 676–682. https://doi.org/10.1038/nmeth.2019
-
-Haun, C. T., Vann, C. G., Mobley, C. B., Roberson, P. A., Osburn, S. C., Holmes, H. M., Mumford, P. M., Romero, M. A., Young, K. C., Moon, J. R., Gladden, L. B., Arnold, R. D., Israetel, M. A., Kirby, A. N., & Roberts, M. D. (2018). Effects of graded whey supplementation during extreme-volume resistance training. Frontiers in Nutrition, 5, 84. https://doi.org/10.3389/fnut.2018.00084
-
-Haun, C. T., Vann, C. G., Mobley, C. B., Osburn, S. C., Mumford, P. W., Roberson, P. A., Romero, M. A., Fox, C. D., Parry, H. A., Kavazis, A. N., Moon, J. R., Young, K. C., & Roberts, M. D. (2019). Pre-training skeletal muscle fiber size and predominant fiber type best predict hypertrophic responses to 6 weeks of resistance training in previously trained young men. Frontiers in Physiology, 10, 297. https://doi.org/10.3389/fphys.2019.00297

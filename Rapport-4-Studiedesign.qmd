@@ -1,27 +1,22 @@
 ---
-title: "Rapport 4"
+title: "Rapport 4 - Studiedesign"
 format: html
 editor_options: 
   chunk_output_type: console
 bibliography: references.bib
 ---
 
-# Effekter av periodiseringsmetoder på VO2max
-
 ## Innledning
-
 Treningsperiodisering er en systematisk treningsstrategi som brukes for å optimalisere prestasjon og fysiologisk tilpasning gjennom variasjon i intensitet, volum og belastning (Rønnestad et al., 2012; Gejl et al., 2017). I utholdenhetsidretter som sykling og triatlon er periodisering spesielt viktig for å maksimere VO2max, en nøkkelindikator for aerob kapasitet og prestasjon (Munoz et al., 2021). Blokkbasert periodisering har blitt fremhevet som en effektiv metode for å oppnå raske forbedringer, mens tradisjonelle modeller ofte vektlegger jevn progresjon (Munoz et al., 2021). Samtidig har polariserende treningsmodeller vist lovende resultater, spesielt i elitepopulasjoner (Gejl et al., 2017).
 
 Formålet med denne rapporten er å analysere og sammenligne fem originale forskningsstudier som undersøker effektene av periodisering på VO2max. Rapporten fokuserer på studiedesign og valg av statistiske metoder, som er avgjørende for å tolke funnene på en valid og pålitelig måte (Hulley et al., 2013). Resultatene av denne analysen er relevante for trenere og utøvere som ønsker å tilpasse treningsstrategier basert på vitenskapelig evidens.
 
 ## Studiedesign
-
 Valg av studiedesign er avgjørende for å besvare forskningsspørsmål og trekke gyldige konklusjoner. Randomiserte kontrollerte studier (RCT) er regnet som gullstandarden for å etablere kausalitet, fordi de minimerer bias og kontrollerer for konfunderende variabler (Hulley et al., 2013). Longitudinelle design, som følger utøvere over tid, gir verdifull innsikt i fysiologiske tilpasninger, men mangler ofte randomisering og kontrollgrupper, noe som kan svekke den interne validiteten (Sellés-Pérez et al., 2024). Crossover-design er spesielt nyttige i treningsforskning, da deltakerne fungerer som sine egne kontroller, og dermed reduserer individuelle forskjeller (Gejl et al., 2017).
 
 De fem studiene i denne rapporten inkluderer et spekter av design, fra RCT og crossover-studier til case-studier. Hver tilnærming har sine styrker og svakheter, og valg av design påvirker både kvaliteten på dataene og hvordan resultatene kan generaliseres (Munoz et al., 2021; Rønnestad & Hansen, 2018).
 
 ## Analyse av studiene
-
 1. Sellés-Pérez et al. (2024): Longitudinell analyse av triatleter
 Sellés-Pérez et al. (2024) gjennomførte en longitudinell studie med tre kvinnelige U23-triatleter for å undersøke sammenhengen mellom treningsbelastning, prestasjon og kroppssammensetning. Lineær regresjon ble brukt for å evaluere sammenhenger mellom treningsvolum og prestasjon over tid. Studien viser at kontinuerlig treningsbelastning bidrar til økt VO2max og redusert fettprosent, men det lille utvalget begrenser generaliserbarheten av funnene. Longitudinelle design er godt egnet for å kartlegge endringer over tid, men de er sårbare for bias knyttet til individuelle forskjeller og manglende randomisering (Hulley et al., 2013).
 

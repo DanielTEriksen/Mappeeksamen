@@ -23,8 +23,7 @@ primere.
 
 ## Utstyr
 
-En sanntids PCR-maskin (vi bruker QuantStudio 5) En qPCR-reaksjonsplate
-Nukleasefritt vann og pipettespisser SYBR-grønn Master mix
+En sanntids PCR-maskin (vi bruker QuantStudio 5), en qPCR-reaksjonsplate, nukleasefritt vann og pipettespisser SYBR-grønn Master mix
 
 ## Metoder
 
@@ -262,5 +261,3 @@ då CV reknes ut fra standardavviket delt på gjennomsnittet som gjør at
 et lavere gjennomsnitt vil gi en høyere CV. Vi mistenker at dårlig
 pipitering er årsak til at høyere CV for ufortynnet prøve enn 1/2
 fortynnet prøve.
-
-## Referanser

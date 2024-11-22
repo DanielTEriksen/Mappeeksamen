@@ -1,0 +1,305 @@
+---
+title: "Laboratorierapport fra molekylærlabb"
+format: 
+  pdf:
+    toc: true
+    number-sections: true
+    code-fold: false
+execute:
+  echo: false
+bibliography: references.bib
+---
+
+## qPCR
+
+Formålet med denne rapporten er å sjekke primereffektivitet og gjennomføre målrettet amplifisering av cDNA ved bruk av spesifikke primere. Å analysere genuttrykk ved bruk av qPCR er en metode som blir benyttet mye for å undersøke hvordan gener responderer på fysiologiske stimuli som trening.I denne undersøkelsen så vi nærmere å hvordan styrketrening påvirker genuttrykket i ulike muskelfibertyper.
+
+## Utstyr
+
+En sanntids PCR-maskin (vi bruker QuantStudio 5), en qPCR-reaksjonsplate, nukleasefritt vann og pipettespisser SYBR-grønn Master mix
+
+## Metoder
+
+Fikk ferdig cDNA prøver fra fryser av personer som har gjennomført systematisk styrketrening i 2 uker.
+
+Vi fortynnet prøvene med qPCR:
+
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+fortynning_tabell <- data.frame(
+  Ror = c("1", "2a", "3a", "4a", "2b", "3b", "4b"),
+  Fortynning = c("1", "1/10", "1/100", "1/1000", "1/2", "1/20", "1/200"),
+  Prøve_volum = c("30µl", "2µl", "2µl", "2µl", "10µl", "2µl", "2µl"),
+  H2O_volum = c("0µl", "18µl", "18µl", "18µl", "10µl", "18µl", "18µl")
+)
+
+# Lag tabellen med LaTeX-format
+kable(
+  fortynning_tabell, 
+  caption = "Fortynningsdata", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(
+    full_width = FALSE, 
+    position = "left", 
+    latex_options = c("striped", "hold_position")
+  ) %>%
+  column_spec(1, border_left = TRUE) %>%
+  column_spec(ncol(fortynning_tabell), border_right = TRUE) %>%
+  row_spec(0, bold = TRUE, hline_after = TRUE) %>%
+  row_spec(1:nrow(fortynning_tabell), hline_after = FALSE)
+
+```
+
+1.  Flytter 2 µl fra rør 1 til 2a, og 10µl fra 1 til 2b, vortex rør 2a+2b.
+
+2.  Flytter 2µl fra 2a til 3a og 2µl fra 2b til 3b, vortex rør 3a+3b.
+
+3.  Flytter 2µl fra 3a til 4a og 2µ fra 3b til 4b, vortex rør 4a + 4b.
+
+Mulig avvik: første: litt lite innhold i 3b ifh til de andre
+
+1.  Kombiner en mesterblanding:
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+komponent_tabell <- data.frame(
+  Komponent = c("Sybr-green 2X master-mix", "Primermix (Forward and Reverse, 5 μM each)", "H2O"),
+  Volum_per_reaksjon = c("5 μl", "1 μl", "2 μl"),
+  Total_volum = c("50 μl", "10 μl", "20 μl"),
+  cmyc = c("125 μl", "25 μl", "50 μl")
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  komponent_tabell, 
+  caption = "Komponentdata for qPCR", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  ) %>%
+  column_spec(1, border_left = TRUE) %>%
+  column_spec(ncol(komponent_tabell), border_right = TRUE) %>%
+  row_spec(0, bold = TRUE, hline_after = TRUE) %>%
+  row_spec(1:nrow(komponent_tabell), hline_after = FALSE)
+
+
+```
+
+Mulig avvik i første steg: sybr-grønn: tok 200 + 50, hang igjen dråper i pipettespiss på begge to
+
+Andre steg: vond pipette for sybr-grønn 50ml
+
+2.  Fyll platen med 8μl primerspesifikk masterblanding
+
+3.  Tilsett 2μl cDNA-prøve.
+
+## Pipetteringsskjema
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+pipetteringsskjema <- data.frame(
+  Rad = c("EN", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"),
+  Kol_13 = c("Fp1", "myhc 1", "myhc 1", "myhc 2a", "myhc 2a", "myhc 2a", "myhc 2x", "myhc 2x", "myhc 2x", "myhc", "myhc", "myhc"),
+  Kol_14 = c("Fp2", "myhc 1", "myhc 1", "myhc 2a", "myhc 2a", "myhc 2a", "myhc 2x", "myhc 2x", "myhc 2x", "myhc", "myhc", "myhc"),
+  Kol_15 = c("", "", "", "", "", "", "", "", "", "", "", ""),
+  Kol_16 = c("", "", "", "", "", "", "", "", "", "", "", ""),
+  Kol_17 = c("cmyc 1", "cmyc 1", "cmyc 1", "", "", "", "", "", "", "cmyc 1", "cmyc 1", "cmyc 1"),
+  Kol_18 = c("cmyc 2a", "cmyc 2a", "cmyc 2a", "", "", "", "", "", "", "cmyc 2a", "cmyc 2a", "cmyc 2a"),
+  Kol_19 = c("cmyc 3a", "cmyc 3a", "cmyc 3a", "", "", "", "", "", "", "cmyc 3a", "cmyc 3a", "cmyc 3a"),
+  Kol_20 = c("cmyc 4a", "cmyc 4a", "cmyc 4a", "", "", "", "", "", "", "cmyc 4a", "cmyc 4a", "cmyc 4a"),
+  Kol_21 = c("cmyc 2b", "cmyc 2b", "cmyc 2b", "", "", "", "", "", "", "cmyc 2b", "cmyc 2b", "cmyc 2b"),
+  Kol_22 = c("cmyc 3b", "cmyc 3b", "cmyc 3b", "", "", "", "", "", "", "cmyc 3b", "cmyc 3b", "cmyc 3b"),
+  Kol_23 = c("cmyc 4b", "cmyc 4b", "cmyc 4b", "", "", "", "", "", "", "cmyc 4b", "cmyc 4b", "cmyc 4b")
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  pipetteringsskjema, 
+  caption = "Pipetteringsskjema", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(font_size = 5,
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  ) %>%
+  column_spec(1, border_left = TRUE) %>%
+  column_spec(ncol(pipetteringsskjema), border_right = TRUE) %>%
+  row_spec(0, bold = TRUE, hline_after = TRUE) %>%
+  row_spec(1:nrow(pipetteringsskjema), hline_after = FALSE)
+
+
+```
+
+MHC Delta-delta-CT method: relative quantification
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+qpcr_results <- data.frame(
+  Sample_name = c("FP6 R w0", "FP6 R w2pre", "FP6 R w0", "FP6 R w2pre", "FP6 R w0", "FP6 R w2pre"),
+  Target_name = c("myhc1", "myhc1", "mhc2a", "mhc2a", "myhc2x", "myhc2x"),
+  Ct1 = c(19.798, 18.944, 21.029, 19.549, 27.019, 24.871),
+  Ct2 = c(19.901, 19.24, 21.247, 19.304, 26.898, 24.105),
+  Ct3 = c(19.621, 19.861, 20.627, 19.580, 25.907, 24.256),
+  Average = c(19.7733333, 19.3483333, 20.968, 19.478, 26.6079534, 24.4106166),
+  Reference_gene = c("b2m", "b2m", "b2m", "b2m", "b2m", "b2m"),
+  Ct1_ref = c(24.670, 22.913, 24.670, 22.913, 24.670, 22.913),
+  Ct2_ref = c(24.513, 23.950, 24.513, 23.950, 24.513, 23.950),
+  Ct3_ref = c(24.691, 23.819, 24.691, 23.819, 24.691, 23.819),
+  Average_ref = c(24.625, 23.561, 24.625, 23.561, 24.625, 23.561),
+  Delta_Ct = c(-4.851, -4.212, -3.657, -4.083, 1.983, 0.850),
+  Delta_Delta_Ct = c(NA, NA, NA, NA, NA, NA),
+  Two_Delta_Delta_Ct = c(28.867, 18.536, 12.613, 16.944, 0.253, 0.555)
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  qpcr_results, 
+  caption = "qPCR Resultater", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(font_size = 3,
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  ) %>%
+  column_spec(1, border_left = TRUE) %>%
+  column_spec(ncol(qpcr_results), border_right = TRUE) %>%
+  row_spec(0, bold = TRUE, hline_after = TRUE) %>%
+  row_spec(1:nrow(qpcr_results), hline_after = FALSE)
+
+
+```
+
+Gene fam normalization 2\^-Ct
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+prosentfordeling <- data.frame(
+  "100 %" = c(41.733, 36.034),
+  myhc1 = c("69,17 %", "51,44 %"),
+  myhc2a = c("30,22 %", "47,02 %"),
+  mhc2x = c("0,61 %", "1,54 %")
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  prosentfordeling, 
+  caption = "Prosentfordeling for myhc1, myhc2a og mhc2x", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  )
+
+
+```
+
+Etter en to uker lang styrketreningsintervensjon observeres en endring i genuttrykket og fordeling for myhc1, myhc2a og myhc2x. Ved pre-testen var fordelingen henholdsvis 69,17 % for myhc1, 30,22 % for myhc2a og 0,61 % for myhc2x. Etter intervensjonen, ved post-testen, endret fordelingen seg til 51,44 % for myhc1, 47,02 % for myhc2a og 1,54 % for myhc2x. Ct verdiene indikerer en økning av genuttrykket av myhc1, myhc2a og myhc2x.
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+fortynningstabell <- data.frame(
+  Fortynning = c("1", "1/2", "1/10", "1/20", "1/200"),
+  Ct1 = c("28,678", "29,414", "31,776", "33,241", "Undetermined"),
+  Ct2 = c("28,708", "29,620", "31,416", "32,653", "Undetermined"),
+  Ct3 = c("29,155", "29,264", "32,413", "Undetermined", "34,574"),
+  Avg_Ct = c("28,847", "29,433", "31,868", "32,947", "34,574"),
+  Sample_quan = c(1, 0.5, 0.1, 0.05, 0.005),
+  Log_sample_quan = c(0, -0.301, -1, -1.301, -2.301),
+  Slope_stigningstall = c("-2,6104", "", "", "", ""),
+  Primer_Efficiency = c("141,5901", "", "", "", "")
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  fortynningstabell, 
+  caption = "Fortynningsrekke", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(font_size = 5,
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  )
+
+```
+
+Stigningstallet på -2,6 indikerer at primer effektiviteten er ikke-optimal da den er kalkulert til 142%. Vi ser at observasjonene ikke er lineære (Figur 8.1)
+
+![Ffiguren viser en negativ sammenheng mellom gjennomsnittlige Ct-verdier og log (sample quantity).](images/Labrapport.png)
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+# Opprett tabellen med data
+pooled_sample <- data.frame(
+  "Pooled sam" = c(1, 0.5, 0.1),
+  Avg = c(28.847, 29.433, 31.868),
+  SD = c(0.26704902, 0.17887641, 0.50500096),
+  CV_percent = c("0,93 %", "0,61 %", "1,58 %")
+)
+
+# Lag tabellen med LaTeX-format for PDF
+kable(
+  pooled_sample, 
+  caption = "Pooled Sample Data", 
+  align = "c", 
+  format = "latex"
+) %>%
+  kable_styling(
+    full_width = FALSE, 
+    position = "center", 
+    latex_options = c("striped", "hold_position")
+  )
+
+```
+
+Standardavvikene er relativt lave for fortynningene i "pooled sample" som tyder på presisjon i resultatene. Standardfeilen er lavest for 1/2 fortynnet prøve ved 0,61% og høyest for 1/10 fortynnet prøve ved 1,58%. Det indikerer at det er større variabilitet mellom målingene for prøvene som er mest fortynnet. Standardfeilen til den ufortynnede prøven er høyere enn den fortynnede 1/2.
+
+## Diskusjon
+
+[@wilborn2004] sa at etter 8 uker med tung styrketrening var genuttrykket for myhc 1 og 2a økt, og mindre for mych 2x. Det er ikke studier på to uker med stykretrening som forklarer endringen i myhc genuttrykk, men vi spekulerer i at det vil være samme endringer som for [@wilborn2004], men i mindre grad. Dette stemmer med våre funn da vi ser en økning i genutrykk for både mych 1 og mych 2a, men det strider i mot at vi ser en økning i mych 2x.
+
+Primer effektiviteten er ikke-optimal da den er kalkulert til 142%. Referanseverdiene på 90-110% indikerer at hver PCR syklus dobler mengden mål DNA nøyaktig. Vår høye verdi tyder på ulike feilkilder underveis i forsøket. Som feil pipettering eller kontaminasjon. Primere kan binde seg til flere plasser på DNA, og kan også binde seg til hverandre, noe som kan gi ut falskt signal.
+
+CV målingene forteller at det er høyere variabilitet i målingene når prøven blir mer fortynnet. Gjennomsnittet er lavest på den ufortynnede prøven. Dette er noe som kan påvirke at CV er høyere enn den 1/2 fortynnede prøven da CV regnes ut fra standardavviket delt på gjennomsnittet, som gjør at et lavere gjennomsnitt vil gi en høyere CV. Vi mistenker at dårlig pipitering er årsak til at høyere CV for ufortynnet prøve enn 1/2 fortynnet prøve.
